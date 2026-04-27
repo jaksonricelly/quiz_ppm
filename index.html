@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Lógica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- MENU LATERAL -->
+  <aside id="menu"></aside>
+
+  <!-- CONTEÚDO -->
+  <main class="content">
+
+    <div class="top-bar">
+      <div class="nav-controls">
+        <button class="nav-btn" onclick="prevQuestion()">◀</button>
+        <span id="progress">0%</span>
+        <button class="nav-btn" onclick="nextQuestion()">▶</button>
+      </div>
+      <button id="viewResultBtn" class="hidden" onclick="showResult()">Ver Resultado</button>
+    </div>
+
+    <div id="quiz-box">
+      <h2 id="q-title"></h2>
+      <p id="q-text"></p>
+
+      <div id="options"></div>
+
+      <button id="infoBtn" class="info-btn">Ver explicação</button>
+      <button id="retryBtn" class="retry-btn hidden">Tentar novamente</button>
+    </div>
+
+  </main>
+
+</div>
+
+<!-- MODAL (ESSENCIAL) -->
+<div id="modal" class="modal hidden">
+  <div class="modal-box">
+    
+    <div class="modal-header">
+      <h3>Explicação</h3>
+      <button onclick="closeModal()">✕</button>
+    </div>
+
+    <div id="modal-body"></div>
+
+  </div>
+</div>
+
+<!-- RESULTADO FINAL -->
+<div id="resultModal" class="modal hidden">
+  <div class="modal-box result-box">
+
+    <div class="modal-header">
+      <h3>Resultado Final</h3>
+      <button onclick="closeResult()">✕</button>
+    </div>
+
+    <div id="resultContent"></div>
+
+    <div class="result-actions">
+      <button onclick="downloadResult()">Salvar como TXT</button>
+      <button onclick="closeResult()">Fechar</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
