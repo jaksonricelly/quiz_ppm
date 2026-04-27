@@ -1,279 +1,303 @@
 {
   "questions": [
     {
-      "id": 1,
-      "title": "Propriedade de algoritmo",
-      "question": "Algoritmo que fica em loop infinito viola qual propriedade essencial?",
+      "id": 26,
+      "title": "Ferramentas digitais",
+      "question": "Em uma plataforma educacional, um professor pediu que os alunos discutissem um tema em grupo online e, depois, entregassem um trabalho final no sistema. Quais ferramentas síncrona e assíncrona são mais adequadas para essas ações, respectivamente?",
       "options": [
-        {"text": "Ambiguidade", "correct": false, "comment": "Ambiguidade está relacionada à falta de clareza, não ao tempo de execução."},
-        {"text": "Finitude", "correct": true, "comment": "Correto. Todo algoritmo deve terminar após um número finito de passos."},
+        {"text": "Fórum e Wiki", "correct": false, "comment": "Ambas são ferramentas assíncronas."},
+        {"text": "Chat e Tarefa", "correct": true, "comment": "Correto. Chat é síncrono (tempo real) e tarefa é envio posterior."},
+        {"text": "Questionário e Fórum", "correct": false, "comment": "Questionário não serve para discussão em grupo."},
+        {"text": "Wiki e Chat", "correct": false, "comment": "A ordem está invertida."},
+        {"text": "Tarefa e Chat", "correct": false, "comment": "A ordem correta é primeiro comunicação, depois envio."}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Sustentabilidade em TI",
+      "question": "Um estudante trocou seu notebook antigo por um novo. Pensando nos princípios dos 3 Rs (Reduzir, Reutilizar, Reciclar), qual atitude é mais adequada para o equipamento antigo?",
+      "options": [
+        {"text": "Descartar no lixo comum.", "correct": false, "comment": "Equipamentos eletrônicos não devem ir para lixo comum."},
+        {"text": "Queimar os componentes para reaproveitar metais.", "correct": false, "comment": "Isso é perigoso e poluente."},
+        {"text": "Guardar sem uso em casa.", "correct": false, "comment": "Não contribui para reutilização."},
+        {"text": "Doar ou reutilizar em outro ambiente.", "correct": true, "comment": "Correto. Prolonga a vida útil do equipamento."},
+        {"text": "Jogar em rios ou terrenos baldios.", "correct": false, "comment": "Causa impacto ambiental grave."}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Conceito de algoritmo",
+      "question": "Ao ensinar alguém a preparar uma receita passo a passo, com início, meio e fim, você está organizando uma sequência lógica de instruções. Em computação, como chamamos esse conceito?",
+      "options": [
+        {"text": "Aplicativo", "correct": false, "comment": "Aplicativo é um programa pronto, não a lógica."},
+        {"text": "Banco de Dados", "correct": false, "comment": "Armazena informações, não define passos."},
+        {"text": "Sistema Operacional", "correct": false, "comment": "Gerencia o computador."},
+        {"text": "Algoritmo", "correct": true, "comment": "Correto. É uma sequência de passos para resolver um problema."},
+        {"text": "Hardware", "correct": false, "comment": "Parte física do computador."}
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Propriedades de algoritmos",
+      "question": "Você abre um aplicativo no celular e ele fica preso em uma tela de carregamento sem nunca finalizar, obrigando você a fechar o app. Em lógica de programação, qual propriedade essencial não foi respeitada?",
+      "options": [
+        {"text": "Ambiguidade", "correct": false, "comment": "Ambiguidade está ligada à falta de clareza nas instruções."},
         {"text": "Redundância", "correct": false, "comment": "Redundância é repetição desnecessária, não ausência de fim."},
-        {"text": "Complexidade", "correct": false, "comment": "Complexidade trata do nível de dificuldade do algoritmo."}
+        {"text": "Complexidade", "correct": false, "comment": "Complexidade está relacionada à dificuldade do algoritmo."},
+        {"text": "Finitude", "correct": true, "comment": "Correto. Todo algoritmo deve ter fim após um número finito de passos."},
+        {"text": "Infinitude", "correct": false, "comment": "Infinitude não é uma propriedade desejada em algoritmos."}
       ]
     },
     {
       "id": 2,
-      "title": "Entrada e saída",
-      "question": "Quais comandos representam entrada e saída de dados em algoritmos?",
+      "title": "Entrada e saída de dados",
+      "question": "Um sistema de cadastro solicita que o usuário digite seu e-mail e, em seguida, exibe uma mensagem de confirmação na tela. Quais comandos representam essas ações de entrada e saída, respectivamente?",
       "options": [
-        {"text": "Início e Fim", "correct": false, "comment": "Delimitam o algoritmo, não fazem entrada ou saída."},
-        {"text": "Var e Algoritmo", "correct": false, "comment": "Servem para declaração, não interação."},
-        {"text": "Se e Senão", "correct": false, "comment": "São estruturas de decisão."},
+        {"text": "Se e Senão", "correct": false, "comment": "São usados para decisões, não entrada/saída."},
+        {"text": "Leia e Escreva", "correct": true, "comment": "Correto. Leia captura dados e Escreva exibe informações."},
         {"text": "Para e Enquanto", "correct": false, "comment": "São estruturas de repetição."},
-        {"text": "Leia e Escreva", "correct": true, "comment": "Correto. Leia recebe dados e Escreva exibe dados."}
+        {"text": "Início e Fim", "correct": false, "comment": "Delimitam o algoritmo."},
+        {"text": "Var e Algoritmo", "correct": false, "comment": "Servem para declaração."}
       ]
     },
     {
       "id": 3,
       "title": "Tipos de dados",
-      "question": "Qual a sequência correta de tipos: 'Aragorn', 15, 250.50, Falso?",
+      "question": "Em um sistema de cadastro de um jogador, são armazenadas as seguintes informações: Nome \"Luna\", Pontuação 20, Saldo 150.75 e Ativo verdadeiro. Esses valores correspondem, respectivamente, a quais tipos de dados?",
       "options": [
-        {"text": "Literal, Real, Inteiro, Numérico", "correct": false, "comment": "A ordem está incorreta."},
-        {"text": "Inteiro, Literal, Real, Lógico", "correct": false, "comment": "Os tipos não correspondem corretamente."},
-        {"text": "Literal, Inteiro, Real, Lógico", "correct": true, "comment": "Correto. String, inteiro, decimal e booleano."},
-        {"text": "Lógico, Numérico, Literal, Inteiro", "correct": false, "comment": "Ordem completamente incorreta."}
+        {"text": "Inteiro, Literal, Real e Lógico", "correct": false, "comment": "A ordem está incorreta."},
+        {"text": "Literal, Inteiro, Real e Lógico", "correct": true, "comment": "Correto. Texto, número inteiro, decimal e booleano."},
+        {"text": "Lógico, Real, Inteiro e Literal", "correct": false, "comment": "A sequência está incorreta."},
+        {"text": "Literal, Real, Inteiro e Numérico", "correct": false, "comment": "Classificação incorreta."},
+        {"text": "Caractere, Lógico, Real e Inteiro", "correct": false, "comment": "Ordem incorreta."}
       ]
     },
     {
       "id": 4,
       "title": "Variáveis",
-      "question": "Qual nome de variável é válido?",
+      "question": "Ao criar um sistema para registrar pontuações de alunos, é necessário definir nomes válidos para variáveis. Qual das opções abaixo segue corretamente as regras de nomenclatura?",
       "options": [
-        {"text": "1_jogador", "correct": false, "comment": "Não pode começar com número."},
-        {"text": "pontos jogador", "correct": false, "comment": "Não pode conter espaços."},
-        {"text": "pontos-jogador", "correct": false, "comment": "Não pode usar hífen."},
-        {"text": "pontos_jogador_1", "correct": true, "comment": "Correto. Usa underscore e começa com letra."}
+        {"text": "pontuacao-aluno", "correct": false, "comment": "Não pode usar hífen."},
+        {"text": "2pontuacao", "correct": false, "comment": "Não pode começar com número."},
+        {"text": "pontuacao aluno", "correct": false, "comment": "Não pode conter espaços."},
+        {"text": "_pontuacao_", "correct": false, "comment": "Uso inadequado de símbolos especiais."},
+        {"text": "pontuacao_aluno_1", "correct": true, "comment": "Correto. Usa underscore e começa com letra."}
       ]
     },
     {
       "id": 5,
-      "title": "Execução de código",
-      "question": "Qual será o valor final de likes após as operações: 50 + 15 - 5?",
+      "title": "Execução de algoritmo",
+      "question": "Considere um algoritmo que inicia uma variável com valor 40, depois soma 20 e, em seguida, subtrai 10. Qual será o valor final exibido?",
       "options": [
-        {"text": "50", "correct": false, "comment": "Não considera as operações."},
-        {"text": "65", "correct": false, "comment": "Falta a subtração final."},
-        {"text": "60", "correct": true, "comment": "Correto. 50 + 15 = 65, 65 - 5 = 60."},
-        {"text": "55", "correct": false, "comment": "Cálculo incorreto."}
+        {"text": "60", "correct": false, "comment": "Não considera a subtração final."},
+        {"text": "50", "correct": true, "comment": "Correto. 40 + 20 = 60, 60 - 10 = 50."},
+        {"text": "30", "correct": false, "comment": "Valor incorreto."},
+        {"text": "70", "correct": false, "comment": "Erro na soma."},
+        {"text": "40", "correct": false, "comment": "Valor inicial apenas."}
       ]
     },
         {
       "id": 6,
-      "title": "Operador lógico OR",
-      "question": "Qual operador permite que uma condição seja verdadeira se pelo menos uma das condições for verdadeira?",
+      "title": "Operadores lógicos",
+      "question": "Em um sistema de acesso, o usuário pode entrar se tiver senha válida OU autenticação por biometria ativa. Qual operador lógico representa essa condição onde apenas uma das opções precisa ser verdadeira?",
       "options": [
+        {"text": "AND", "correct": false, "comment": "AND exige que todas as condições sejam verdadeiras."},
         {"text": "NOT", "correct": false, "comment": "NOT nega uma condição."},
-        {"text": "AND", "correct": false, "comment": "AND exige que todas sejam verdadeiras."},
-        {"text": "OR", "correct": true, "comment": "Correto. Basta uma condição ser verdadeira."},
-        {"text": "==", "correct": false, "comment": "É operador relacional."}
+        {"text": "OR", "correct": true, "comment": "Correto. OR permite que apenas uma condição seja verdadeira."},
+        {"text": "==", "correct": false, "comment": "É operador relacional."},
+        {"text": ">", "correct": false, "comment": "É operador de comparação."}
       ]
     },
     {
       "id": 7,
-      "title": "Operador lógico AND",
-      "question": "Qual será o resultado: True AND False?",
+      "title": "Expressões lógicas",
+      "question": "Em um sistema de jogo, uma fase só é liberada se o jogador tiver um item especial E possuir pelo menos 10 pontos. Se ele tem o item, mas possui apenas 5 pontos, qual será o resultado da expressão?",
       "options": [
-        {"text": "True", "correct": false, "comment": "AND exige ambas verdadeiras."},
-        {"text": "False", "correct": true, "comment": "Correto. Uma condição falsa torna tudo falso."},
-        {"text": "Talvez", "correct": false, "comment": "Não existe esse resultado lógico."},
-        {"text": "Erro", "correct": false, "comment": "Expressão válida."}
+        {"text": "Verdadeiro", "correct": false, "comment": "Ambas as condições precisam ser verdadeiras."},
+        {"text": "Falso", "correct": true, "comment": "Correto. Uma das condições não foi atendida."},
+        {"text": "Erro", "correct": false, "comment": "A expressão está correta."},
+        {"text": "Nulo", "correct": false, "comment": "Não é um resultado lógico válido aqui."},
+        {"text": "Talvez", "correct": false, "comment": "Não existe esse valor lógico."}
       ]
     },
     {
       "id": 8,
-      "title": "Operador relacional",
-      "question": "Qual operador representa 'menor ou igual'?",
+      "title": "Operadores relacionais",
+      "question": "Em um sistema de controle de acesso, o usuário só entra se tiver idade menor ou igual a 18 anos. Qual operador representa corretamente essa condição?",
       "options": [
-        {"text": "<", "correct": false, "comment": "Apenas menor que."},
-        {"text": "==", "correct": false, "comment": "Igualdade."},
-        {"text": "<=", "correct": true, "comment": "Correto. Menor ou igual."},
-        {"text": ">", "correct": false, "comment": "Maior que."}
+        {"text": "<", "correct": false, "comment": "Representa apenas menor que."},
+        {"text": ">=", "correct": false, "comment": "Representa maior ou igual."},
+        {"text": "==", "correct": false, "comment": "Representa igualdade."},
+        {"text": "<=", "correct": true, "comment": "Correto. Representa menor ou igual."},
+        {"text": "!=", "correct": false, "comment": "Representa diferente."}
       ]
     },
     {
       "id": 9,
-      "title": "Condicional IF/ELSE",
-      "question": "Se uma condição for verdadeira, qual bloco é executado?",
+      "title": "Estruturas de decisão",
+      "question": "Considere um sistema que verifica se existe uma notificação nova. Se existir, ele exibe \"Você tem novas mensagens\"; caso contrário, exibe \"Nenhuma notificação\". Se a condição for verdadeira, o que será executado?",
       "options": [
-        {"text": "Else", "correct": false, "comment": "Else executa quando é falso."},
-        {"text": "If", "correct": true, "comment": "Correto. If executa quando verdadeiro."},
-        {"text": "Ambos", "correct": false, "comment": "Nunca executa os dois."},
-        {"text": "Nenhum", "correct": false, "comment": "Sempre executa um dos blocos."}
+        {"text": "Nada será executado", "correct": false, "comment": "Sempre um bloco será executado."},
+        {"text": "Executa o bloco do Senão", "correct": false, "comment": "Senão executa quando a condição é falsa."},
+        {"text": "Executa o bloco do Se", "correct": true, "comment": "Correto. Quando a condição é verdadeira, executa o Se."},
+        {"text": "Dá erro no sistema", "correct": false, "comment": "A estrutura está correta."},
+        {"text": "Executa os dois blocos", "correct": false, "comment": "Apenas um bloco é executado."}
       ]
     },
     {
       "id": 10,
-      "title": "Operador diferente",
-      "question": "Qual operador indica 'diferente'?",
+      "title": "Comparações",
+      "question": "Em um sistema de login, é necessário verificar se o código digitado é diferente do código armazenado. Qual operador representa corretamente essa comparação?",
       "options": [
-        {"text": "==", "correct": false, "comment": "Significa igual."},
-        {"text": "!=", "correct": true, "comment": "Correto. Representa diferença."},
-        {"text": ">=", "correct": false, "comment": "Maior ou igual."},
-        {"text": "<=", "correct": false, "comment": "Menor ou igual."}
+        {"text": "==", "correct": false, "comment": "Representa igualdade."},
+        {"text": "+=", "correct": false, "comment": "É operador de atribuição."},
+        {"text": ">=", "correct": false, "comment": "Representa maior ou igual."},
+        {"text": "!=", "correct": true, "comment": "Correto. Representa diferença entre valores."},
+        {"text": "<=", "correct": false, "comment": "Representa menor ou igual."}
       ]
     },
-      {
+     {
       "id": 11,
-      "title": "Condicional encadeada",
-      "question": "Qual estrutura usamos quando temos várias condições em sequência?",
+      "title": "Estruturas de decisão",
+      "question": "Em um sistema acadêmico, um estudante é classificado como Excelente se a nota for maior ou igual a 9, Regular se estiver entre 6 e 8, e Insuficiente se for menor que 6. Para implementar essa lógica com decisões dentro de outras decisões, qual estrutura é mais adequada?",
       "options": [
-        {"text": "If simples", "correct": false, "comment": "If simples trata apenas uma condição."},
-        {"text": "If encadeado (elif)", "correct": true, "comment": "Correto. Permite várias decisões em sequência."},
-        {"text": "While", "correct": false, "comment": "While é repetição."},
-        {"text": "For", "correct": false, "comment": "For é repetição."}
+        {"text": "Estrutura de Seleção Simples", "correct": false, "comment": "Trata apenas uma condição, não múltiplas verificações."},
+        {"text": "Estrutura de Seleção Encadeada", "correct": true, "comment": "Correto. Permite várias condições em sequência."},
+        {"text": "Estrutura de Repetição", "correct": false, "comment": "Repetição não é usada para decisão."},
+        {"text": "Vetor", "correct": false, "comment": "É estrutura de dados."},
+        {"text": "Estrutura Literal", "correct": false, "comment": "Não se aplica a esse tipo de lógica."}
       ]
     },
     {
       "id": 12,
-      "title": "Seleção múltipla",
-      "question": "Qual estrutura é ideal para comparar uma variável com vários valores fixos?",
+      "title": "Estruturas de controle",
+      "question": "Em um sistema de menu digital, o usuário escolhe uma opção digitando um número: 1 para abrir arquivo, 2 para salvar e 3 para sair. Qual estrutura é mais indicada quando queremos testar uma variável com vários valores específicos?",
       "options": [
-        {"text": "If simples", "correct": false, "comment": "Ficaria repetitivo."},
-        {"text": "Switch/Case", "correct": true, "comment": "Correto. Ideal para múltiplas opções."},
-        {"text": "While", "correct": false, "comment": "Não é para decisão."},
-        {"text": "Variável", "correct": false, "comment": "Não é estrutura de controle."}
+        {"text": "While", "correct": false, "comment": "While é usado para repetição."},
+        {"text": "If/Else", "correct": false, "comment": "Funciona, mas não é a forma mais eficiente nesse caso."},
+        {"text": "Switch/Case", "correct": true, "comment": "Correto. Ideal para múltiplas comparações com valores fixos."},
+        {"text": "For", "correct": false, "comment": "For é estrutura de repetição."},
+        {"text": "Atribuição", "correct": false, "comment": "Não é estrutura de controle."}
       ]
     },
     {
       "id": 13,
       "title": "Repetição",
-      "question": "Qual estrutura usamos para repetir ações várias vezes?",
+      "question": "Um programa precisa enviar automaticamente uma notificação para vários usuários sem repetir manualmente o mesmo comando várias vezes. Qual tipo de estrutura permite essa automatização?",
       "options": [
-        {"text": "If", "correct": false, "comment": "If não repete."},
-        {"text": "Loop", "correct": true, "comment": "Correto. Loops repetem ações."},
-        {"text": "Variável", "correct": false, "comment": "Não controla fluxo."},
-        {"text": "Função", "correct": false, "comment": "Não é estrutura de repetição."}
+        {"text": "Estruturas de decisão", "correct": false, "comment": "Decisão não repete ações."},
+        {"text": "Estruturas de seleção", "correct": false, "comment": "Selecionam caminhos, não repetem."},
+        {"text": "Estruturas de repetição", "correct": true, "comment": "Correto. Permitem executar ações várias vezes."},
+        {"text": "Tipos de dados", "correct": false, "comment": "Não controlam execução."},
+        {"text": "Operadores", "correct": false, "comment": "Não repetem comandos."}
       ]
     },
     {
       "id": 14,
-      "title": "For",
-      "question": "Quando usar o for?",
+      "title": "Laços com controle definido",
+      "question": "Em um sistema de contagem automática, um processo precisa executar exatamente 5 vezes, pois o número de repetições já é conhecido previamente. Qual estrutura é mais adequada?",
       "options": [
-        {"text": "Quando não sabemos quantas vezes repetir", "correct": false, "comment": "Isso é while."},
-        {"text": "Quando sabemos a quantidade de repetições", "correct": true, "comment": "Correto. For é controle fixo."},
-        {"text": "Para decisões", "correct": false, "comment": "Não é condicional."},
-        {"text": "Para entrada de dados", "correct": false, "comment": "Não é entrada."}
+        {"text": "While", "correct": false, "comment": "While é usado quando não sabemos quantas vezes repetir."},
+        {"text": "If", "correct": false, "comment": "If não realiza repetição."},
+        {"text": "For", "correct": true, "comment": "Correto. For é ideal para repetições com quantidade definida."},
+        {"text": "Switch", "correct": false, "comment": "Switch é seleção, não repetição."},
+        {"text": "Do/While", "correct": false, "comment": "Executa pelo menos uma vez, mas não é ideal para contagem fixa."}
       ]
     },
     {
       "id": 15,
-      "title": "While",
-      "question": "Quando usar o while?",
+      "title": "Execução de laços",
+      "question": "Considere um algoritmo que inicia uma variável com valor 4 e, enquanto esse valor for maior que zero, exibe uma mensagem e diminui o valor em 1. Quantas vezes a mensagem será exibida?",
       "options": [
-        {"text": "Quando sabemos o número de repetições", "correct": false, "comment": "Isso é for."},
-        {"text": "Quando depende de uma condição", "correct": true, "comment": "Correto. Repete enquanto for verdadeiro."},
-        {"text": "Para declarar variáveis", "correct": false, "comment": "Não é declaração."},
-        {"text": "Para imprimir", "correct": false, "comment": "Não é função de saída."}
+        {"text": "2 vezes", "correct": false, "comment": "Valor insuficiente de repetições."},
+        {"text": "3 vezes", "correct": false, "comment": "Ainda falta uma execução."},
+        {"text": "4 vezes", "correct": true, "comment": "Correto. Executa enquanto 4, 3, 2 e 1."},
+        {"text": "5 vezes", "correct": false, "comment": "Excede o número real de execuções."},
+        {"text": "Nenhuma vez", "correct": false, "comment": "A condição inicial é verdadeira."}
       ]
     },
     {
       "id": 16,
-      "title": "Repetição (uso geral)",
-      "question": "Qual estrutura permite executar a mesma ação várias vezes automaticamente?",
+      "title": "Estruturas de repetição",
+      "question": "Um sistema precisa exibir um menu ao usuário antes de verificar se ele deseja encerrar o programa. Qual estrutura garante que o bloco será executado pelo menos uma vez antes da verificação?",
       "options": [
-        {"text": "If", "correct": false, "comment": "If apenas decide, não repete."},
-        {"text": "Loop", "correct": true, "comment": "Correto. Estruturas de repetição automatizam tarefas."},
-        {"text": "Variável", "correct": false, "comment": "Não controla execução."},
-        {"text": "Operador", "correct": false, "comment": "Não é estrutura de controle."}
+        {"text": "While", "correct": false, "comment": "While verifica a condição antes de executar."},
+        {"text": "For", "correct": false, "comment": "For é usado quando sabemos o número de repetições."},
+        {"text": "Do/While", "correct": true, "comment": "Correto. Executa primeiro e verifica depois."},
+        {"text": "If/Else", "correct": false, "comment": "Não é estrutura de repetição."},
+        {"text": "Switch/Case", "correct": false, "comment": "É estrutura de seleção."}
       ]
     },
     {
       "id": 17,
-      "title": "For (contagem)",
-      "question": "Qual estrutura usamos quando sabemos exatamente quantas vezes repetir?",
+      "title": "Estruturas de dados",
+      "question": "Um sistema armazena os nomes dos 30 alunos de uma turma em uma única estrutura, onde cada nome pode ser acessado por uma posição numérica. Qual estrutura é mais adequada?",
       "options": [
-        {"text": "While", "correct": false, "comment": "While depende de condição."},
-        {"text": "For", "correct": true, "comment": "Correto. Ideal para contagem definida."},
-        {"text": "If", "correct": false, "comment": "Não repete."},
-        {"text": "Switch", "correct": false, "comment": "É seleção, não repetição."}
+        {"text": "Matriz", "correct": false, "comment": "Matriz é bidimensional."},
+        {"text": "Variável simples", "correct": false, "comment": "Armazena apenas um valor."},
+        {"text": "Função", "correct": false, "comment": "Não armazena dados."},
+        {"text": "Lista unidimensional", "correct": true, "comment": "Correto. Permite armazenar vários elementos em sequência."},
+        {"text": "Condicional", "correct": false, "comment": "Não é estrutura de dados."}
       ]
     },
     {
       "id": 18,
-      "title": "While (condição)",
-      "question": "Qual estrutura repete enquanto uma condição for verdadeira?",
+      "title": "Estruturas de dados",
+      "question": "Um sistema de reservas utiliza uma tabela com linhas e colunas para organizar assentos disponíveis. Qual estrutura representa melhor essa organização?",
       "options": [
-        {"text": "For", "correct": false, "comment": "For usa quantidade definida."},
-        {"text": "If", "correct": false, "comment": "If não repete."},
-        {"text": "While", "correct": true, "comment": "Correto. Repete baseado em condição."},
-        {"text": "Break", "correct": false, "comment": "Break interrompe, não repete."}
+        {"text": "Vetor", "correct": false, "comment": "Vetor possui apenas uma dimensão."},
+        {"text": "Matriz", "correct": true, "comment": "Correto. Representa dados em duas dimensões."},
+        {"text": "Loop", "correct": false, "comment": "Loop não armazena dados."},
+        {"text": "Condicional", "correct": false, "comment": "Não representa estrutura de dados."},
+        {"text": "Variável", "correct": false, "comment": "Armazena apenas um valor."}
       ]
     },
     {
       "id": 19,
-      "title": "Do/While",
-      "question": "Qual estrutura executa pelo menos uma vez antes de verificar a condição?",
+      "title": "Controle de fluxo",
+      "question": "Em uma estrutura de múltiplas escolhas, é necessário impedir que o programa continue executando os próximos casos após encontrar o caso correto. Qual comando realiza essa função?",
       "options": [
-        {"text": "While", "correct": false, "comment": "While verifica antes."},
-        {"text": "For", "correct": false, "comment": "For controla repetição fixa."},
-        {"text": "Do/While", "correct": true, "comment": "Correto. Executa primeiro, verifica depois."},
-        {"text": "If", "correct": false, "comment": "Não é repetição."}
+        {"text": "Continue", "correct": false, "comment": "Continue pula para próxima repetição."},
+        {"text": "Break", "correct": true, "comment": "Correto. Interrompe a execução da estrutura."},
+        {"text": "Return", "correct": false, "comment": "Return encerra função."},
+        {"text": "Start", "correct": false, "comment": "Não é comando válido."},
+        {"text": "Stop", "correct": false, "comment": "Não é padrão em estruturas de seleção."}
       ]
     },
     {
       "id": 20,
-      "title": "Vetor (lista)",
-      "question": "Qual estrutura armazena vários valores em sequência usando um único índice?",
+      "title": "Execução de algoritmo",
+      "question": "Considere um sistema bancário onde o saldo inicial é 200. Um usuário tenta realizar uma operação com valor negativo de -50. A condição verifica se esse valor é menor ou igual ao saldo antes de executar a operação. Qual será o comportamento do sistema?",
       "options": [
-        {"text": "Matriz", "correct": false, "comment": "Matriz usa duas dimensões."},
-        {"text": "Vetor", "correct": true, "comment": "Correto. Lista unidimensional."},
-        {"text": "If", "correct": false, "comment": "Não armazena dados."},
-        {"text": "Loop", "correct": false, "comment": "Não é estrutura de dados."}
+        {"text": "Saldo insuficiente", "correct": false, "comment": "A condição será verdadeira."},
+        {"text": "Erro de execução", "correct": false, "comment": "Não há erro lógico."},
+        {"text": "Operação realizada", "correct": true, "comment": "Correto. A condição é verdadeira, então executa."},
+        {"text": "Saldo final será negativo", "correct": false, "comment": "Na verdade aumentaria o saldo."},
+        {"text": "Nada acontece", "correct": false, "comment": "O código executa normalmente."}
       ]
     },
-        {
+    {
       "id": 21,
-      "title": "Matriz",
-      "question": "Qual estrutura organiza dados em linhas e colunas?",
+      "title": "Boas práticas de programação",
+      "question": "Ao nomear variáveis em um sistema, é comum utilizar nomes como \"data_usuario\" em vez de \"data usuario\". Qual é o principal motivo para essa prática?",
       "options": [
-        {"text": "Vetor", "correct": false, "comment": "Vetor possui apenas uma dimensão."},
-        {"text": "Matriz", "correct": true, "comment": "Correto. Trabalha com duas dimensões: linha e coluna."},
-        {"text": "If", "correct": false, "comment": "Não armazena dados."},
-        {"text": "While", "correct": false, "comment": "Não é estrutura de dados."}
+        {"text": "Indicar que a variável é numérica", "correct": false, "comment": "O tipo da variável não depende do nome."},
+        {"text": "Substituir espaços que não são permitidos", "correct": true, "comment": "Correto. Variáveis não podem conter espaços."},
+        {"text": "Finalizar comandos automaticamente", "correct": false, "comment": "Não tem essa função."},
+        {"text": "Declarar constantes", "correct": false, "comment": "Constantes seguem outras regras."},
+        {"text": "Criar comentários no código", "correct": false, "comment": "Comentários usam outros símbolos."}
       ]
     },
     {
       "id": 22,
-      "title": "Break",
-      "question": "Qual comando interrompe a execução de um loop ou estrutura de escolha?",
+      "title": "Representação de algoritmos",
+      "question": "Antes de implementar um sistema, um desenvolvedor organiza a lógica usando símbolos gráficos como setas, decisões e blocos de processamento. Como é chamada essa forma de representação?",
       "options": [
-        {"text": "Continue", "correct": false, "comment": "Continue pula para próxima repetição."},
-        {"text": "Break", "correct": true, "comment": "Correto. Interrompe imediatamente o loop."},
-        {"text": "If", "correct": false, "comment": "Não interrompe execução."},
-        {"text": "Return", "correct": false, "comment": "Usado em funções."}
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Condicional",
-      "question": "Qual estrutura é usada para tomar decisões com base em condições?",
-      "options": [
-        {"text": "For", "correct": false, "comment": "For é repetição."},
-        {"text": "If", "correct": true, "comment": "Correto. Estrutura de decisão."},
-        {"text": "While", "correct": false, "comment": "While é repetição."},
-        {"text": "Lista", "correct": false, "comment": "É estrutura de dados."}
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Underscore",
-      "question": "Por que usamos '_' em nomes de variáveis?",
-      "options": [
-        {"text": "Para declarar número", "correct": false, "comment": "Não tem relação com tipo."},
-        {"text": "Para substituir espaços", "correct": true, "comment": "Correto. Variáveis não podem ter espaços."},
-        {"text": "Para comentar código", "correct": false, "comment": "Comentários usam #."},
-        {"text": "Para finalizar código", "correct": false, "comment": "Não tem essa função."}
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Fluxograma",
-      "question": "Qual representa graficamente um algoritmo com símbolos e setas?",
-      "options": [
-        {"text": "Código", "correct": false, "comment": "Código é textual."},
-        {"text": "Fluxograma", "correct": true, "comment": "Correto. Representação visual do algoritmo."},
-        {"text": "Variável", "correct": false, "comment": "Não representa processo."},
-        {"text": "Loop", "correct": false, "comment": "É estrutura lógica."}
+        {"text": "Código-fonte", "correct": false, "comment": "Código é a implementação textual."},
+        {"text": "Pseudocódigo", "correct": false, "comment": "É textual, não gráfico."},
+        {"text": "Fluxograma", "correct": true, "comment": "Correto. Representação gráfica de um algoritmo."},
+        {"text": "Compilador", "correct": false, "comment": "Compilador traduz código."},
+        {"text": "Debug", "correct": false, "comment": "Debug é processo de correção."}
       ]
     }
   ]
