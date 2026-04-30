@@ -18,7 +18,7 @@
         {
           "text": "Ana Clara:16",
           "correct": true,
-          "comment": " LETRA C - O texto é dividido pelo símbolo #. O nome passa por strip para remover espaços e title para formatar. Ana Clara tem 9 caracteres. A quantidade 7 é somada ao tamanho do nome. Resultado final: 16."
+          "comment": "O texto é dividido pelo símbolo #. O nome passa por strip para remover espaços e title para formatar. Ana Clara tem 9 caracteres. A quantidade 7 é somada ao tamanho do nome. Resultado final: 16."
         },
         {
           "text": "Ana clara:15",
@@ -40,7 +40,7 @@
         {
           "text": "<class 'int'>",
           "correct": true,
-          "comment": "LETRA A - A divisão 4/2 resulta em 2.0 que é igual a b. A comparação gera True. Em Python True vale 1. Então 1 + 4 = 5. O tipo final é inteiro."
+          "comment": "A divisão 4/2 resulta em 2.0 que é igual a b. A comparação gera True. Em Python True vale 1. Então 1 + 4 = 5. O tipo final é inteiro."
         },
         {
           "text": "<class 'float'>",
@@ -72,7 +72,7 @@
         {
           "text": "5 10 10",
           "correct": true,
-          "comment": "LETRA A - a começa com 10 e b recebe 10. Depois a vira 15. Na troca final c recebe 10 e a vira 5. Resultado impresso: 5 10 10."
+          "comment": "a começa com 10 e b recebe 10. Depois a vira 15. Na troca final c recebe 10 e a vira 5. Resultado impresso: 5 10 10."
         },
         {
           "text": "10 10 5",
@@ -99,12 +99,12 @@
 {
   "id": 4,
   "title": "Identificadores em Python",
-  "question": "...",
+  "question": "04. Um servidor público está revisando um script em Python 3 e precisa identificar quais nomes podem ser usados validamente como identificadores de variáveis, sem gerar erro de sintaxe.\n\nConsidere os seguintes nomes para variáveis:\n_servidores\ntotal2026\nclassificacao_final\n2fase\nvalor-total\nfor\nmédia\n\nAssinale a alternativa CORRETA.",
   "options": [
     {
       "text": "Apenas _servidores, total2026, classificacao_final e média são válidos",
       "correct": true,
-      "comment": "LETRA A - Correto. Python 3 permite identificadores com acentuação Unicode."
+      "comment": "Correto. Python 3 permite identificadores com acentuação Unicode."
     },
     {
       "text": "Apenas _servidores, total2026 e classificacao_final são válidos",
@@ -141,7 +141,7 @@
     {
       "text": "25",
       "correct": true,
-      "comment": "LETRA B - Ordem dos operadores: potência, multiplicação, divisão inteira, resto e depois soma e subtração. 2 elevado a 3 é 8. 5 vezes 8 é 40. 40 dividido inteiro por 4 é 10. 7 resto 4 é 3. 18 mais 10 menos 3 é 25."
+      "comment": "Ordem dos operadores: potência, multiplicação, divisão inteira, resto e depois soma e subtração. 2 elevado a 3 é 8. 5 vezes 8 é 40. 40 dividido inteiro por 4 é 10. 7 resto 4 é 3. 18 mais 10 menos 3 é 25."
     },
     {
       "text": "27",
@@ -173,7 +173,7 @@
         {
           "text": "True False True",
           "correct": true,
-          "comment": "LETRA B - O operador == compara valores e is compara identidade. 7 é igual a 7.0 então True. Mas são tipos diferentes então is é False. Convertendo string para inteiro dá 7. Resultado: True False True."
+          "comment": "O operador == compara valores e is compara identidade. 7 é igual a 7.0 então True. Mas são tipos diferentes então is é False. Convertendo string para inteiro dá 7. Resultado: True False True."
         },
         {
           "text": "False False True",
@@ -200,7 +200,7 @@
         {
           "text": "True",
           "correct": true,
-          "comment": "LETRA - A expressão verifica regras de idade e acompanhamento. As condições internas resultam em valores verdadeiros e no final tudo reduz para True. O acesso é permitido."
+          "comment": "A expressão verifica regras de idade e acompanhamento. As condições internas resultam em valores verdadeiros e no final tudo reduz para True. O acesso é permitido."
         },
         {
           "text": "False",

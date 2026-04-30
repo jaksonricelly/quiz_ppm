@@ -77,6 +77,7 @@ function loadQuestion(index) {
 
   selectedQuestion.options.forEach((opt, i) => {
     const btn = document.createElement("button");
+    btn.setAttribute("data-letter", ["A)", "B)", "C)", "D)", "E)"][i]);
     btn.innerText = opt.text;
 
     btn.onclick = () => {

@@ -104,18 +104,33 @@ h1 {
   display: none;
 }
 
+#options {
+  text-align: left;
+}
+
+
+
 #options button {
+    text-align: left;
+  justify-content: flex-start;
+  display: flex;
   font-size: 17px;
-  padding: 14px;
-  line-height: 1.5;
+  padding: 12px 15px;
+  line-height: 1.4;
   margin: 8px 0;
-  display: block;
   width: 100%;
   border: none;
   background: #334155;
   color: white;
   cursor: pointer;
   border-radius: 5px;
+  
+}
+
+#options button::before {
+  content: attr(data-letter);
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 #options button:hover {
