@@ -12,7 +12,7 @@ let answered = {};
 //   }
 // }
 
-fetch('./questions.json')
+fetch('./questions_ti.json')
   .then(res => res.json())
   .then(data => {
     questions = data.questions;

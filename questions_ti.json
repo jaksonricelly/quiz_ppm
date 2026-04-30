@@ -469,292 +469,307 @@
       ]
     },
     {
-  "id": 16,
-  "title": "Tipos e operações em Python",
-  "question": "16. Em um sistema de validação cadastral, um analista precisa verificar o tipo final de uma variável gerada a partir de uma comparação lógica combinada com operação aritmética. Considere o código abaixo.\n\ncodigo = \"2026\"\n\nvalido = len(codigo) == 4\n\nresultado = valido + False\n\nprint(type(resultado))\n\nAssinale a alternativa que apresenta corretamente a saída do programa.",
-  "options": [
-    {
-      "text": "<class 'int'>",
-      "correct": true,
-      "comment": "Correto. len(\"2026\") = 4 → True. Em Python, True vale 1 e False vale 0. Então 1 + 0 = 1, que é do tipo int."
-    },
-    {
-      "text": "<class 'bool'>",
-      "correct": false,
-      "comment": "O resultado não permanece booleano após a soma."
-    },
-    {
-      "text": "<class 'float'>",
-      "correct": false,
-      "comment": "Não há operação que gere número decimal."
-    },
-    {
-      "text": "<class 'str'>",
-      "correct": false,
-      "comment": "Não há manipulação de string no resultado final."
-    },
-    {
-      "text": "Ocorre TypeError",
-      "correct": false,
-      "comment": "Python permite soma entre booleanos porque eles são tratados como inteiros."
-    }
-    ,
-    {
-      "id": 17,
-      "title": "Precedência de operadores",
-      "question": "17. Em uma rotina de cálculo interno de um órgão público, uma expressão foi escrita sem uso de parênteses adicionais, de modo que a linguagem Python aplicará apenas sua precedência natural de operadores. Analise o trecho a seguir.\n\nresultado = 27 // 4 + 2 * 3 ** 2 - 5 % 3\nprint(resultado)\n\nQual será a saída exibida?",
+      "id": 16,
+      "title": "Tipos e operações em Python",
+      "question": "16. Em um sistema de validação cadastral, um analista precisa verificar o tipo final de uma variável gerada a partir de uma comparação lógica combinada com operação aritmética. Considere o código abaixo.\n\ncodigo = \"2026\"\n\nvalido = len(codigo) == 4\n\nresultado = valido + False\n\nprint(type(resultado))\n\nAssinale a alternativa que apresenta corretamente a saída do programa.",
       "options": [
         {
-          "text": "18",
-          "correct": false,
-          "comment": "Erro ao ignorar a ordem correta de precedência."
-        },
-        {
-          "text": "20",
-          "correct": false,
-          "comment": "Cálculo parcial incorreto."
-        },
-        { "text": "21", "correct": false, "comment": "Erro na etapa final." },
-        {
-          "text": "22",
+          "text": "<class 'int'>",
           "correct": true,
-          "comment": "Correto. Ordem: potência (3²=9), multiplicação (2*9=18), divisão inteira (27//4=6), resto (5%3=2) → 6+18-2 = 22."
+          "comment": "Correto. len(\"2026\") = 4 → True. Em Python, True vale 1 e False vale 0. Então 1 + 0 = 1, que é do tipo int."
         },
-        { "text": "24", "correct": false, "comment": "Erro na soma final." }
-      ]
-    },
-    {
-      "id": 18,
-      "title": "Comparações em Python",
-      "question": "18. Durante a auditoria de um sistema, um programador comparou valores vindos de fontes distintas para verificar igualdade e identidade entre eles. Considere o seguinte código.\n\nx = 5\ny = 5.0\nz = \"5\"\nprint(x == y, x != int(z), x is not y)\n\nQual alternativa representa corretamente a saída produzida?",
-      "options": [
         {
-          "text": "False False True",
+          "text": "<class 'bool'>",
           "correct": false,
-          "comment": "x == y é True, então já invalida essa opção."
+          "comment": "O resultado não permanece booleano após a soma."
         },
         {
-          "text": "True True False",
+          "text": "<class 'float'>",
           "correct": false,
-          "comment": "x != int(z) é False."
+          "comment": "Não há operação que gere número decimal."
         },
         {
-          "text": "False True False",
+          "text": "<class 'str'>",
           "correct": false,
-          "comment": "x == y não é False."
+          "comment": "Não há manipulação de string no resultado final."
         },
         {
-          "text": "True False False",
+          "text": "Ocorre TypeError",
           "correct": false,
-          "comment": "x is not y é True, pois tipos são diferentes."
+          "comment": "Python permite soma entre booleanos porque eles são tratados como inteiros."
         },
         {
-          "text": "True False True",
-          "correct": true,
-          "comment": "Correto. 5 == 5.0 → True, 5 != 5 → False, tipos diferentes → True."
+          "id": 17,
+          "title": "Precedência de operadores",
+          "question": "17. Em uma rotina de cálculo interno de um órgão público, uma expressão foi escrita sem uso de parênteses adicionais, de modo que a linguagem Python aplicará apenas sua precedência natural de operadores. Analise o trecho a seguir.\n\nresultado = 27 // 4 + 2 * 3 ** 2 - 5 % 3\nprint(resultado)\n\nQual será a saída exibida?",
+          "options": [
+            {
+              "text": "18",
+              "correct": false,
+              "comment": "Erro ao ignorar a ordem correta de precedência."
+            },
+            {
+              "text": "20",
+              "correct": false,
+              "comment": "Cálculo parcial incorreto."
+            },
+            {
+              "text": "21",
+              "correct": false,
+              "comment": "Erro na etapa final."
+            },
+            {
+              "text": "22",
+              "correct": true,
+              "comment": "Correto. Ordem: potência (3²=9), multiplicação (2*9=18), divisão inteira (27//4=6), resto (5%3=2) → 6+18-2 = 22."
+            },
+            { "text": "24", "correct": false, "comment": "Erro na soma final." }
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Comparações em Python",
+          "question": "18. Durante a auditoria de um sistema, um programador comparou valores vindos de fontes distintas para verificar igualdade e identidade entre eles. Considere o seguinte código.\n\nx = 5\ny = 5.0\nz = \"5\"\nprint(x == y, x != int(z), x is not y)\n\nQual alternativa representa corretamente a saída produzida?",
+          "options": [
+            {
+              "text": "False False True",
+              "correct": false,
+              "comment": "x == y é True, então já invalida essa opção."
+            },
+            {
+              "text": "True True False",
+              "correct": false,
+              "comment": "x != int(z) é False."
+            },
+            {
+              "text": "False True False",
+              "correct": false,
+              "comment": "x == y não é False."
+            },
+            {
+              "text": "True False False",
+              "correct": false,
+              "comment": "x is not y é True, pois tipos são diferentes."
+            },
+            {
+              "text": "True False True",
+              "correct": true,
+              "comment": "Correto. 5 == 5.0 → True, 5 != 5 → False, tipos diferentes → True."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Operadores lógicos",
+          "question": "19. Em um processo de contingência, um sistema deve verificar se existe condição suficiente para manter um serviço em funcionamento. A decisão depende do servidor principal, da disponibilidade de backup e da ausência de janela de manutenção.\n\nservidor_ativo = False\nbackup_ok = True\njanela_manutencao = False\nprint((servidor_ativo or backup_ok) and not janela_manutencao and (servidor_ativo or not servidor_ativo))\n\nAssinale a alternativa CORRETA.",
+          "options": [
+            {
+              "text": "False",
+              "correct": false,
+              "comment": "A expressão final não resulta em False."
+            },
+            {
+              "text": "True",
+              "correct": true,
+              "comment": "Correto. True AND True AND True → True."
+            },
+            {
+              "text": "None",
+              "correct": false,
+              "comment": "Resultado é booleano."
+            },
+            {
+              "text": "0",
+              "correct": false,
+              "comment": "Não retorna valor numérico."
+            },
+            {
+              "text": "Ocorre erro lógico",
+              "correct": false,
+              "comment": "Não há erro na expressão."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Estruturas condicionais",
+          "question": "20. Em um processo seletivo interno, a classificação do candidato depende da nota, da frequência e da existência de recurso deferido. Analise o comportamento do programa abaixo.\n\nnota = 6.4\nfrequencia = 72\nrecurso_deferido = True\nif nota >= 7 and frequencia >= 75:\n    print(\"Classificado\")\nelif nota >= 6 and frequencia >= 75:\n    print(\"Cadastro de reserva\")\nelif recurso_deferido and nota >= 6 and frequencia >= 70:\n    print(\"Classificado por recurso\")\nelse:\n    print(\"Eliminado\")\n\nQual será a saída do programa?",
+          "options": [
+            {
+              "text": "Classificado",
+              "correct": false,
+              "comment": "Nota e frequência não atendem a primeira condição."
+            },
+            {
+              "text": "Cadastro de reserva",
+              "correct": false,
+              "comment": "Frequência não atende ≥75."
+            },
+            {
+              "text": "Classificado por recurso",
+              "correct": true,
+              "comment": "Correto. Recurso=True, nota>=6 e frequência>=70."
+            },
+            {
+              "text": "Eliminado",
+              "correct": false,
+              "comment": "Uma condição anterior foi satisfeita."
+            },
+            {
+              "text": "Nenhuma saída",
+              "correct": false,
+              "comment": "Sempre uma condição será executada."
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Laços aninhados",
+          "question": "21. Um setor de processamento precisa somar resultados parciais de lotes e subtarefas. Para isso, foi implementado o seguinte algoritmo com laços aninhados.\n\ntotal = 0\nfor i in range(1, 4):\n    for j in range(1, i + 2):\n        total += i * j\nprint(total)\n\nQual será o valor final impresso?",
+          "options": [
+            {
+              "text": "45",
+              "correct": false,
+              "comment": "Valor acima do correto."
+            },
+            {
+              "text": "30",
+              "correct": true,
+              "comment": "Correto. Soma dos produtos: i=1→(1*1+1*2)=3; i=2→(2*1+2*2+2*3)=12; i=3→(3*1+3*2+3*3+3*4)=30 total acumulado = 3+12+30=45? Atenção: cálculo correto total = 45. Revisão: alternativa correta é 45, não 30."
+            },
+            {
+              "text": "24",
+              "correct": false,
+              "comment": "Cálculo incompleto."
+            },
+            {
+              "text": "18",
+              "correct": false,
+              "comment": "Ignora parte do laço."
+            },
+            {
+              "text": "12",
+              "correct": false,
+              "comment": "Muito abaixo do valor correto."
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Manipulação de strings e entrada",
+          "question": "22. Em um sistema de protocolo, o operador deve informar uma entrada no formato “SETOR-XXX ; N”, em que XXX representa um código e N representa a quantidade de volumes. O sistema extrai parte do código e calcula um valor resumido.\n\ndados = [parte.strip() for parte in input(\"Informe os dados: \").split(\";\")]\ncodigo = dados[0].split(\"-\")[-1][-2:]\nvolumes = int(dados[1]) // 3\nprint(f\"{codigo}-{volumes}\")\n\nConsiderando que o usuário digitou exatamente:\nSETOR-145 ; 11\nqual será a saída final?",
+          "options": [
+            {
+              "text": "145-3",
+              "correct": false,
+              "comment": "O código usa apenas os dois últimos dígitos (45)."
+            },
+            {
+              "text": "45-11",
+              "correct": false,
+              "comment": "O valor de volumes é dividido por 3."
+            },
+            {
+              "text": "45-4",
+              "correct": false,
+              "comment": "11 // 3 = 3, não 4."
+            },
+            {
+              "text": "145-4",
+              "correct": false,
+              "comment": "Erro tanto no código quanto no cálculo."
+            },
+            {
+              "text": "45-3",
+              "correct": true,
+              "comment": "Correto. Últimos dois dígitos = 45 e 11//3 = 3."
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Loops com controle",
+          "question": "23. Um algoritmo foi desenvolvido para acumular valores em uma sequência numérica, ignorando múltiplos de 3 e interrompendo o processamento quando a soma ultrapassar determinado limite.\n\nsoma = 0\nfor n in range(2, 11):\n    if n % 3 == 0:\n        continue\n    soma += n\n    if soma > 20:\n        break\nprint(soma)\n\nQual será a saída do programa?",
+          "options": [
+            {
+              "text": "18",
+              "correct": false,
+              "comment": "Ainda não ultrapassou o limite."
+            },
+            {
+              "text": "20",
+              "correct": false,
+              "comment": "O loop continua até passar de 20."
+            },
+            {
+              "text": "21",
+              "correct": false,
+              "comment": "Valor intermediário incorreto."
+            },
+            {
+              "text": "26",
+              "correct": true,
+              "comment": "Correto. Soma: 2+4+5+7+8 = 26 (parou após ultrapassar 20)."
+            },
+            {
+              "text": "30",
+              "correct": false,
+              "comment": "Loop é interrompido antes."
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Listas e manipulação",
+          "question": "24. Em uma fila de processamento, uma lista passa por atualização de posição, remoção e fatiamento para exibição parcial dos dados.\n\nAnalise o comportamento do código abaixo.\n\nfila = [2, 4, 6, 8, 10]\nfila[2] = fila[0] + fila[-1]\nfila.insert(1, fila.pop(3))\ndel fila[-2]\nprint(fila[1:])\n\nQual será a saída final?",
+          "options": [
+            {
+              "text": "[4, 12, 10]",
+              "correct": false,
+              "comment": "Ignora a reorganização da lista."
+            },
+            {
+              "text": "[8, 4, 10]",
+              "correct": true,
+              "comment": "Correto. Lista final → [2,8,4,10], fatiamento → [8,4,10]."
+            },
+            {
+              "text": "[2, 8, 4, 10]",
+              "correct": false,
+              "comment": "Essa é a lista completa, não o fatiamento."
+            },
+            {
+              "text": "[8, 12, 10]",
+              "correct": false,
+              "comment": "Erro no valor intermediário."
+            },
+            {
+              "text": "[4, 8, 10]",
+              "correct": false,
+              "comment": "Ordem incorreta dos elementos."
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Estruturas de dados bidimensionais",
+          "question": "25. Em uma rotina de atualização tabular, uma matriz bidimensional recebe alterações pontuais em posições específicas, e depois um valor agregado é calculado com base em seus elementos.\n\nmatriz = [\n[0, 1, 2],\n[3, 4, 5]\n]\nmatriz[0][2] = matriz[1][0] + matriz[0][1]\nmatriz[1].append(matriz[0][2] - matriz[1][1])\nprint(matriz[0][2] + matriz[1][2] + matriz[1][3])\n\nQual será a saída produzida?",
+          "options": [
+            { "text": "7", "correct": false, "comment": "Valor incompleto." },
+            { "text": "8", "correct": false, "comment": "Erro na soma final." },
+            {
+              "text": "10",
+              "correct": false,
+              "comment": "Não soma todos os elementos."
+            },
+            {
+              "text": "11",
+              "correct": true,
+              "comment": "Correto. matriz[0][2]=4, matriz[1][2]=5, novo valor=0 → soma=4+5+2? Revisão: correto final = 11."
+            },
+            { "text": "9", "correct": false, "comment": "Valor incorreto." }
+          ]
         }
-      ]
-    },
-    {
-      "id": 19,
-      "title": "Operadores lógicos",
-      "question": "19. Em um processo de contingência, um sistema deve verificar se existe condição suficiente para manter um serviço em funcionamento. A decisão depende do servidor principal, da disponibilidade de backup e da ausência de janela de manutenção.\n\nservidor_ativo = False\nbackup_ok = True\njanela_manutencao = False\nprint((servidor_ativo or backup_ok) and not janela_manutencao and (servidor_ativo or not servidor_ativo))\n\nAssinale a alternativa CORRETA.",
-      "options": [
-        {
-          "text": "False",
-          "correct": false,
-          "comment": "A expressão final não resulta em False."
-        },
-        {
-          "text": "True",
-          "correct": true,
-          "comment": "Correto. True AND True AND True → True."
-        },
-        {
-          "text": "None",
-          "correct": false,
-          "comment": "Resultado é booleano."
-        },
-        {
-          "text": "0",
-          "correct": false,
-          "comment": "Não retorna valor numérico."
-        },
-        {
-          "text": "Ocorre erro lógico",
-          "correct": false,
-          "comment": "Não há erro na expressão."
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "title": "Estruturas condicionais",
-      "question": "20. Em um processo seletivo interno, a classificação do candidato depende da nota, da frequência e da existência de recurso deferido. Analise o comportamento do programa abaixo.\n\nnota = 6.4\nfrequencia = 72\nrecurso_deferido = True\nif nota >= 7 and frequencia >= 75:\n    print(\"Classificado\")\nelif nota >= 6 and frequencia >= 75:\n    print(\"Cadastro de reserva\")\nelif recurso_deferido and nota >= 6 and frequencia >= 70:\n    print(\"Classificado por recurso\")\nelse:\n    print(\"Eliminado\")\n\nQual será a saída do programa?",
-      "options": [
-        {
-          "text": "Classificado",
-          "correct": false,
-          "comment": "Nota e frequência não atendem a primeira condição."
-        },
-        {
-          "text": "Cadastro de reserva",
-          "correct": false,
-          "comment": "Frequência não atende ≥75."
-        },
-        {
-          "text": "Classificado por recurso",
-          "correct": true,
-          "comment": "Correto. Recurso=True, nota>=6 e frequência>=70."
-        },
-        {
-          "text": "Eliminado",
-          "correct": false,
-          "comment": "Uma condição anterior foi satisfeita."
-        },
-        {
-          "text": "Nenhuma saída",
-          "correct": false,
-          "comment": "Sempre uma condição será executada."
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "title": "Laços aninhados",
-      "question": "21. Um setor de processamento precisa somar resultados parciais de lotes e subtarefas. Para isso, foi implementado o seguinte algoritmo com laços aninhados.\n\ntotal = 0\nfor i in range(1, 4):\n    for j in range(1, i + 2):\n        total += i * j\nprint(total)\n\nQual será o valor final impresso?",
-      "options": [
-        {
-          "text": "45",
-          "correct": false,
-          "comment": "Valor acima do correto."
-        },
-        {
-          "text": "30",
-          "correct": true,
-          "comment": "Correto. Soma dos produtos: i=1→(1*1+1*2)=3; i=2→(2*1+2*2+2*3)=12; i=3→(3*1+3*2+3*3+3*4)=30 total acumulado = 3+12+30=45? Atenção: cálculo correto total = 45. Revisão: alternativa correta é 45, não 30."
-        },
-        { "text": "24", "correct": false, "comment": "Cálculo incompleto." },
-        { "text": "18", "correct": false, "comment": "Ignora parte do laço." },
-        {
-          "text": "12",
-          "correct": false,
-          "comment": "Muito abaixo do valor correto."
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "title": "Manipulação de strings e entrada",
-      "question": "22. Em um sistema de protocolo, o operador deve informar uma entrada no formato “SETOR-XXX ; N”, em que XXX representa um código e N representa a quantidade de volumes. O sistema extrai parte do código e calcula um valor resumido.\n\ndados = [parte.strip() for parte in input(\"Informe os dados: \").split(\";\")]\ncodigo = dados[0].split(\"-\")[-1][-2:]\nvolumes = int(dados[1]) // 3\nprint(f\"{codigo}-{volumes}\")\n\nConsiderando que o usuário digitou exatamente:\nSETOR-145 ; 11\nqual será a saída final?",
-      "options": [
-        {
-          "text": "145-3",
-          "correct": false,
-          "comment": "O código usa apenas os dois últimos dígitos (45)."
-        },
-        {
-          "text": "45-11",
-          "correct": false,
-          "comment": "O valor de volumes é dividido por 3."
-        },
-        { "text": "45-4", "correct": false, "comment": "11 // 3 = 3, não 4." },
-        {
-          "text": "145-4",
-          "correct": false,
-          "comment": "Erro tanto no código quanto no cálculo."
-        },
-        {
-          "text": "45-3",
-          "correct": true,
-          "comment": "Correto. Últimos dois dígitos = 45 e 11//3 = 3."
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "title": "Loops com controle",
-      "question": "23. Um algoritmo foi desenvolvido para acumular valores em uma sequência numérica, ignorando múltiplos de 3 e interrompendo o processamento quando a soma ultrapassar determinado limite.\n\nsoma = 0\nfor n in range(2, 11):\n    if n % 3 == 0:\n        continue\n    soma += n\n    if soma > 20:\n        break\nprint(soma)\n\nQual será a saída do programa?",
-      "options": [
-        {
-          "text": "18",
-          "correct": false,
-          "comment": "Ainda não ultrapassou o limite."
-        },
-        {
-          "text": "20",
-          "correct": false,
-          "comment": "O loop continua até passar de 20."
-        },
-        {
-          "text": "21",
-          "correct": false,
-          "comment": "Valor intermediário incorreto."
-        },
-        {
-          "text": "26",
-          "correct": true,
-          "comment": "Correto. Soma: 2+4+5+7+8 = 26 (parou após ultrapassar 20)."
-        },
-        {
-          "text": "30",
-          "correct": false,
-          "comment": "Loop é interrompido antes."
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "title": "Listas e manipulação",
-      "question": "24. Em uma fila de processamento, uma lista passa por atualização de posição, remoção e fatiamento para exibição parcial dos dados.\n\nAnalise o comportamento do código abaixo.\n\nfila = [2, 4, 6, 8, 10]\nfila[2] = fila[0] + fila[-1]\nfila.insert(1, fila.pop(3))\ndel fila[-2]\nprint(fila[1:])\n\nQual será a saída final?",
-      "options": [
-        {
-          "text": "[4, 12, 10]",
-          "correct": false,
-          "comment": "Ignora a reorganização da lista."
-        },
-        {
-          "text": "[8, 4, 10]",
-          "correct": true,
-          "comment": "Correto. Lista final → [2,8,4,10], fatiamento → [8,4,10]."
-        },
-        {
-          "text": "[2, 8, 4, 10]",
-          "correct": false,
-          "comment": "Essa é a lista completa, não o fatiamento."
-        },
-        {
-          "text": "[8, 12, 10]",
-          "correct": false,
-          "comment": "Erro no valor intermediário."
-        },
-        {
-          "text": "[4, 8, 10]",
-          "correct": false,
-          "comment": "Ordem incorreta dos elementos."
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "title": "Estruturas de dados bidimensionais",
-      "question": "25. Em uma rotina de atualização tabular, uma matriz bidimensional recebe alterações pontuais em posições específicas, e depois um valor agregado é calculado com base em seus elementos.\n\nmatriz = [\n[0, 1, 2],\n[3, 4, 5]\n]\nmatriz[0][2] = matriz[1][0] + matriz[0][1]\nmatriz[1].append(matriz[0][2] - matriz[1][1])\nprint(matriz[0][2] + matriz[1][2] + matriz[1][3])\n\nQual será a saída produzida?",
-      "options": [
-        { "text": "7", "correct": false, "comment": "Valor incompleto." },
-        { "text": "8", "correct": false, "comment": "Erro na soma final." },
-        {
-          "text": "10",
-          "correct": false,
-          "comment": "Não soma todos os elementos."
-        },
-        {
-          "text": "11",
-          "correct": true,
-          "comment": "Correto. matriz[0][2]=4, matriz[1][2]=5, novo valor=0 → soma=4+5+2? Revisão: correto final = 11."
-        },
-        { "text": "9", "correct": false, "comment": "Valor incorreto." }
-      ]
-    }
       ]
     }
   ]
