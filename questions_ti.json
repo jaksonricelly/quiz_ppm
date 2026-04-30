@@ -18,7 +18,7 @@
         {
           "text": "Ana Clara:16",
           "correct": true,
-          "comment": "O texto é dividido pelo símbolo #. O nome passa por strip para remover espaços e title para formatar. Ana Clara tem 9 caracteres. A quantidade 7 é somada ao tamanho do nome. Resultado final: 16."
+          "comment": " LETRA C - O texto é dividido pelo símbolo #. O nome passa por strip para remover espaços e title para formatar. Ana Clara tem 9 caracteres. A quantidade 7 é somada ao tamanho do nome. Resultado final: 16."
         },
         {
           "text": "Ana clara:15",
@@ -40,7 +40,7 @@
         {
           "text": "<class 'int'>",
           "correct": true,
-          "comment": "A divisão 4/2 resulta em 2.0 que é igual a b. A comparação gera True. Em Python True vale 1. Então 1 + 4 = 5. O tipo final é inteiro."
+          "comment": "LETRA A - A divisão 4/2 resulta em 2.0 que é igual a b. A comparação gera True. Em Python True vale 1. Então 1 + 4 = 5. O tipo final é inteiro."
         },
         {
           "text": "<class 'float'>",
@@ -72,7 +72,7 @@
         {
           "text": "5 10 10",
           "correct": true,
-          "comment": "a começa com 10 e b recebe 10. Depois a vira 15. Na troca final c recebe 10 e a vira 5. Resultado impresso: 5 10 10."
+          "comment": "LETRA A - a começa com 10 e b recebe 10. Depois a vira 15. Na troca final c recebe 10 e a vira 5. Resultado impresso: 5 10 10."
         },
         {
           "text": "10 10 5",
@@ -96,38 +96,38 @@
         }
       ]
     },
+{
+  "id": 4,
+  "title": "Identificadores em Python",
+  "question": "...",
+  "options": [
     {
-      "id": 4,
-      "title": "Identificadores em Python",
-      "question": "04. Um servidor público está revisando um script em Python 3 e precisa identificar quais nomes podem ser usados validamente como identificadores de variáveis, sem gerar erro de sintaxe.\n\nConsidere os seguintes nomes para variáveis:\n_servidores\ntotal2026\nclassificacao_final\n2fase\nvalor-total\nfor\nmédia\n\nAssinale a alternativa CORRETA.",
-      "options": [
-        {
-          "text": "Apenas _servidores, total2026, classificacao_final e média são válidos",
-          "correct": false,
-          "comment": "média pode causar problema dependendo do ambiente (acentuação)."
-        },
-        {
-          "text": "Apenas _servidores, total2026 e classificacao_final são válidos",
-          "correct": true,
-          "comment": "Identificadores não podem começar com número, não podem ter hífen e não podem ser palavras reservadas. Os válidos são _servidores, total2026 e classificacao_final."
-        },
-        {
-          "text": "Apenas 2fase e média são válidos",
-          "correct": false,
-          "comment": "2fase começa com número e é inválido."
-        },
-        {
-          "text": "Todos são válidos em Python 3",
-          "correct": false,
-          "comment": "Existem nomes inválidos como \"for\" e \"2fase\"."
-        },
-        {
-          "text": "Apenas for e média são válidos",
-          "correct": false,
-          "comment": "for é palavra reservada."
-        }
-      ]
+      "text": "Apenas _servidores, total2026, classificacao_final e média são válidos",
+      "correct": true,
+      "comment": "LETRA A - Correto. Python 3 permite identificadores com acentuação Unicode."
     },
+    {
+      "text": "Apenas _servidores, total2026 e classificacao_final são válidos",
+      "correct": false,
+      "comment": "Incorreto. O identificador média também é válido em Python 3."
+    },
+    {
+      "text": "Apenas 2fase e média são válidos",
+      "correct": false,
+      "comment": "2fase é inválido porque começa com número."
+    },
+    {
+      "text": "Todos são válidos em Python 3",
+      "correct": false,
+      "comment": "Existem inválidos como 2fase, valor-total e for."
+    },
+    {
+      "text": "Apenas for e média são válidos",
+      "correct": false,
+      "comment": "for é palavra reservada e não pode ser usado."
+    }
+  ]
+},
 {
   "id": 5,
   "title": "Precedência de operadores",
@@ -141,7 +141,7 @@
     {
       "text": "25",
       "correct": true,
-      "comment": "Ordem dos operadores: potência, multiplicação, divisão inteira, resto e depois soma e subtração. 2 elevado a 3 é 8. 5 vezes 8 é 40. 40 dividido inteiro por 4 é 10. 7 resto 4 é 3. 18 mais 10 menos 3 é 25."
+      "comment": "LETRA B - Ordem dos operadores: potência, multiplicação, divisão inteira, resto e depois soma e subtração. 2 elevado a 3 é 8. 5 vezes 8 é 40. 40 dividido inteiro por 4 é 10. 7 resto 4 é 3. 18 mais 10 menos 3 é 25."
     },
     {
       "text": "27",
@@ -173,7 +173,7 @@
         {
           "text": "True False True",
           "correct": true,
-          "comment": "Correto. x == y é True, x is y é False (tipos diferentes), e x == int(z) é True."
+          "comment": "LETRA B - O operador == compara valores e is compara identidade. 7 é igual a 7.0 então True. Mas são tipos diferentes então is é False. Convertendo string para inteiro dá 7. Resultado: True False True."
         },
         {
           "text": "False False True",
@@ -200,7 +200,7 @@
         {
           "text": "True",
           "correct": true,
-          "comment": "Correto. A expressão avalia permissões e resulta em True."
+          "comment": "LETRA - A expressão verifica regras de idade e acompanhamento. As condições internas resultam em valores verdadeiros e no final tudo reduz para True. O acesso é permitido."
         },
         {
           "text": "False",
@@ -242,7 +242,7 @@
         {
           "text": "Análise especial",
           "correct": true,
-          "comment": "Correto. recurso=True e frequência >= 70 satisfaz a condição."
+          "comment": "Primeira condição falha pois nota menor que 7. Segunda falha pois frequência menor que 75. Terceira funciona porque há recurso e frequência maior ou igual a 70. Resultado: Análise especial."
         },
         {
           "text": "Reprovado",
@@ -274,7 +274,7 @@
         {
           "text": "Aguardando assinatura",
           "correct": true,
-          "comment": "Correto. Falta assinatura, mas taxa foi paga."
+          "comment": "O protocolo está regular. O documento não está assinado. A taxa foi paga. O fluxo entra na condição que indica falta de assinatura. Resultado: Aguardando assinatura."
         },
         {
           "text": "Pendência dupla",
@@ -311,7 +311,7 @@
         {
           "text": "20",
           "correct": true,
-          "comment": "Correto. x = 2, então 2 * 10 = 20."
+          "comment": "O match compara a tupla. A primeira opção não encaixa. A segunda aceita qualquer valor maior que zero. x vale 2 então imprime 2 vezes 10. Resultado: 20."
         },
         {
           "text": "Revisão manual",
@@ -333,7 +333,7 @@
     {
       "text": "15",
       "correct": true,
-      "comment": "Correto. Pares gerados: (1,2), (2,3), (3,4) → soma total = 1+2+2+3+3+4 = 15."
+      "comment": "Para cada setor são somados dois valores consecutivos. Pares: 1 e 2, depois 2 e 3, depois 3 e 4. Soma total: 1+2+2+3+3+4 = 15."
     },
     {
       "text": "18",
@@ -375,7 +375,7 @@
         {
           "text": "30",
           "correct": true,
-          "comment": "Correto. 7+3=10 → 10*(10-4)=60 → 60//2=30."
+          "comment": "x começa em 7. Soma 3 ficando 10. Multiplica por 6 resultando 60. Divide inteiro por 2 resultando 30. Resultado final: 30."
         },
         {
           "text": "60",
@@ -402,7 +402,7 @@
         {
           "text": "[3, 7, 8, 12, 15]",
           "correct": true,
-          "comment": "Correto. Após operações: [3,7,8,12] → append(3+12=15)."
+          "comment": "A fatia substitui 6 e 9 por 7,8,9. Depois remove o penúltimo valor. Em seguida soma o primeiro com o último e adiciona ao final. Resultado: [3,7,8,12,15]."
         },
         {
           "text": "[3, 6, 7, 8, 12, 15]",
@@ -434,7 +434,7 @@
         {
           "text": "[[1, 9], [3, 4]]",
           "correct": true,
-          "comment": "Correto. A primeira linha foi alterada e a segunda foi sobrescrita."
+          "comment": "A multiplicação cria duas referências da mesma lista. Alterar um valor altera ambas. Depois a segunda linha é substituída por uma nova lista. Resultado final: [[1,9],[3,4]]."
         },
         {
           "text": "[[3, 4], [3, 4]]",
@@ -461,7 +461,7 @@
         {
           "text": "6 18",
           "correct": true,
-          "comment": "Correto. Soma: 3+4+5+6 = 18 → ultrapassa 15 e para."
+          "comment": "O loop soma valores de 3 em diante. Quando a soma passa de 15 ele para. 3+4+5+6 = 18. O último n é 6. Resultado: 6 18."
         },
         {
           "text": "6 15",
@@ -488,7 +488,7 @@
         {
           "text": "<class 'int'>",
           "correct": true,
-          "comment": "Correto. len(\"2026\") = 4 → True. Em Python, True vale 1 e False vale 0. Então 1 + 0 = 1, que é do tipo int."
+          "comment": "O tamanho da string é 4 então a comparação é True. True vale 1 e False vale 0. A soma resulta em 1. O tipo final é inteiro."
         },
         {
           "text": "<class 'bool'>",
@@ -535,7 +535,7 @@
         {
           "text": "22",
           "correct": true,
-          "comment": "Correto. Ordem: potência (3²=9), multiplicação (2*9=18), divisão inteira (27//4=6), resto (5%3=2) → 6+18-2 = 22."
+          "comment": "Potência primeiro: 3 elevado a 2 é 9. Multiplica por 2 dando 18. Divisão inteira 27 por 4 é 6. Resto de 5 por 3 é 2. 6 + 18 - 2 = 22."
         },
         {
           "text": "24",
@@ -572,7 +572,7 @@
         {
           "text": "True False True",
           "correct": true,
-          "comment": "Correto. 5 == 5.0 → True, 5 != 5 → False, tipos diferentes → True."
+          "comment": "5 é igual a 5.0 então True. 5 é diferente de 5 convertido? Não, então False. Os tipos são diferentes então identidade é True. Resultado: True False True."
         }
       ]
     },
@@ -589,7 +589,7 @@
         {
           "text": "True",
           "correct": true,
-          "comment": "Correto. True AND True AND True → True."
+          "comment": "A expressão combina OR e AND. Backup é verdadeiro então a primeira parte é verdadeira. Não há manutenção então continua verdadeiro. A última parte sempre é verdadeira. Resultado final: True."
         },
         {
           "text": "None",
@@ -626,7 +626,7 @@
         {
           "text": "Classificado por recurso",
           "correct": true,
-          "comment": "Correto. Recurso=True, nota>=6 e frequência>=70."
+          "comment": "As duas primeiras condições falham. A terceira funciona pois há recurso, nota maior ou igual a 6 e frequência maior ou igual a 70. Resultado: Classificado por recurso."
         },
         {
           "text": "Eliminado",
@@ -648,7 +648,7 @@
     {
       "text": "45",
       "correct": true,
-      "comment": "Correto. i=1→3, i=2→12, i=3→30 → total = 3+12+30 = 45."
+      "comment": "Para cada i calcula produtos com j. i=1 gera 3, i=2 gera 12, i=3 gera 30. Soma total: 3+12+30 = 45."
     },
     {
       "text": "30",
@@ -700,7 +700,7 @@
         {
           "text": "45-3",
           "correct": true,
-          "comment": "Correto. Últimos dois dígitos = 45 e 11//3 = 3."
+          "comment": "O código pega os dois últimos dígitos ficando 45. Divide 11 por 3 usando divisão inteira dando 3. Resultado: 45-3."
         }
       ]
     },
@@ -727,7 +727,7 @@
         {
           "text": "26",
           "correct": true,
-          "comment": "Correto. Soma: 2+4+5+7+8 = 26 (parou após ultrapassar 20)."
+          "comment": "Ignora múltiplos de 3. Soma 2,4,5,7,8 até passar de 20. Quando chega em 26 o loop para. Resultado final: 26."
         },
         {
           "text": "30",
@@ -749,7 +749,7 @@
         {
           "text": "[8, 4, 10]",
           "correct": true,
-          "comment": "Correto. Lista final → [2,8,4,10], fatiamento → [8,4,10]."
+          "comment": "Atualiza o índice 2 com soma do primeiro e último. Move um elemento de posição e remove outro. Lista final fica [2,8,4,10]. O fatiamento remove o primeiro. Resultado: [8,4,10]."
         },
         {
           "text": "[2, 8, 4, 10]",
@@ -791,7 +791,7 @@
         {
           "text": "11",
           "correct": true,
-          "comment": "Correto. matriz[0][2]=4, matriz[1][2]=5, novo valor=0 → soma=4+5+2? Revisão: correto final = 11."
+          "comment": "Atualiza valor da matriz somando elementos. Adiciona novo valor na segunda linha. Soma final dos índices resulta em 11."
         },
         {
           "text": "9",
