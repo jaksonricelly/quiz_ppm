@@ -18,7 +18,7 @@
         {
           "text": "Ana Clara:16",
           "correct": true,
-          "comment": "Correto. \"Ana Clara\" tem 9 caracteres, então 7 + 9 = 16."
+          "comment": "O texto é dividido pelo símbolo #. O nome passa por strip para remover espaços e title para formatar. Ana Clara tem 9 caracteres. A quantidade 7 é somada ao tamanho do nome. Resultado final: 16."
         },
         {
           "text": "Ana clara:15",
@@ -40,7 +40,7 @@
         {
           "text": "<class 'int'>",
           "correct": true,
-          "comment": "Correto. True vale 1 em Python, então 1 + 4 = 5 (int)."
+          "comment": "A divisão 4/2 resulta em 2.0 que é igual a b. A comparação gera True. Em Python True vale 1. Então 1 + 4 = 5. O tipo final é inteiro."
         },
         {
           "text": "<class 'float'>",
@@ -72,7 +72,7 @@
         {
           "text": "5 10 10",
           "correct": true,
-          "comment": "Correto. a = 15 → c = 10, a = 5, b = 10."
+          "comment": "a começa com 10 e b recebe 10. Depois a vira 15. Na troca final c recebe 10 e a vira 5. Resultado impresso: 5 10 10."
         },
         {
           "text": "10 10 5",
@@ -109,7 +109,7 @@
         {
           "text": "Apenas _servidores, total2026 e classificacao_final são válidos",
           "correct": true,
-          "comment": "Correto. Os demais são inválidos por regra de sintaxe ou palavra reservada."
+          "comment": "Identificadores não podem começar com número, não podem ter hífen e não podem ser palavras reservadas. Os válidos são _servidores, total2026 e classificacao_final."
         },
         {
           "text": "Apenas 2fase e média são válidos",
@@ -141,7 +141,7 @@
     {
       "text": "25",
       "correct": true,
-      "comment": "Correto. Ordem: 2³=8 → 5*8=40 → 40//4=10 → 7%4=3 → 18+10-3=25."
+      "comment": "Ordem dos operadores: potência, multiplicação, divisão inteira, resto e depois soma e subtração. 2 elevado a 3 é 8. 5 vezes 8 é 40. 40 dividido inteiro por 4 é 10. 7 resto 4 é 3. 18 mais 10 menos 3 é 25."
     },
     {
       "text": "27",
