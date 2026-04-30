@@ -105,6 +105,7 @@ function loadQuestion(index) {
       updateMenu();
       updateProgress();
       updateRetryButton();
+      document.getElementById("nextBtn").classList.remove("hidden");
     };
 
     optionsDiv.appendChild(btn);
@@ -117,6 +118,12 @@ function loadQuestion(index) {
   }
 
   updateRetryButton();
+
+  document.getElementById("quiz-box").scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+  document.getElementById("nextBtn").classList.add("hidden");
 }
 
 function showAnswers() {
@@ -186,8 +193,8 @@ function showResult() {
     const resposta = answered[index];
     const correta = q.options.find((o) => o.correct).text;
     const marcada = resposta
-  ? q.options[resposta.selected].text
-  : "Não respondida";
+      ? q.options[resposta.selected].text
+      : "Não respondida";
 
     const isCorrect = resposta.correct;
 
@@ -284,3 +291,7 @@ function formatExplanation() {
 function closeModal() {
   document.getElementById("modal").classList.add("hidden");
 }
+
+document.getElementById("nextBtn").onclick = () => {
+  nextQuestion();
+};

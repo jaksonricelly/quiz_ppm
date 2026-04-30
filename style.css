@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
@@ -108,8 +112,6 @@ h1 {
   text-align: left;
 }
 
-
-
 #options button {
     text-align: left;
   justify-content: flex-start;
@@ -143,6 +145,22 @@ h1 {
 
 #options button.wrong {
   background: #ef4444;
+}
+
+.next-btn {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  background: linear-gradient(135deg, #22c55e, #38bdf8);
+  border: none;
+  border-radius: 8px;
+  color: #020617;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  transform: scale(1.02);
 }
 
 .controls {
