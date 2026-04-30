@@ -185,7 +185,9 @@ function showResult() {
   questions.forEach((q, index) => {
     const resposta = answered[index];
     const correta = q.options.find((o) => o.correct).text;
-    const marcada = q.options[resposta.selected].text;
+    const marcada = resposta
+  ? q.options[resposta.selected].text
+  : "Não respondida";
 
     const isCorrect = resposta.correct;
 
