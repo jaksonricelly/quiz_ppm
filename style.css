@@ -206,6 +206,15 @@ h1 {
   color: #38bdf8;
 }
 
+.reset-btn {
+  padding: 8px 12px;
+  background: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 #viewResultBtn {
   padding: 10px 16px;
   border: none;

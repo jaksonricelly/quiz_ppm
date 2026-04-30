@@ -87,35 +87,36 @@ function loadQuestion(index) {
     const btn = document.createElement("button");
     btn.setAttribute("data-letter", ["A)", "B)", "C)", "D)", "E)"][i]);
     btn.innerText = opt.text;
+btn.onclick = () => {
 
-    btn.onclick = () => {
-      if (!answered[current]) {
-        answered[current] = {
-          selected: i,
-          correct: opt.correct,
-          attempts: 1,
-        };
-      } else {
-        // se já acertou, trava
-        if (answered[current].correct) return;
+  // se já acertou, trava
+  if (answered[current] && answered[current].correct) return;
 
-        // limite de 2 tentativas
-        if (answered[current].attempts >= 2) return;
+  // se já usou 2 tentativas, trava
+  if (answered[current] && answered[current].attempts >= 2) return;
 
-        answered[current] = {
-          selected: i,
-          correct: opt.correct,
-          attempts: answered[current].attempts + 1,
-        };
-      }
-      localStorage.setItem("quiz_state", JSON.stringify(answered));
-      showAnswers();
-      updateMenu();
-      updateProgress();
-      updateRetryButton();
-
-      document.getElementById("nextBtn").classList.remove("hidden");
+  if (!answered[current]) {
+    answered[current] = {
+      selected: i,
+      correct: opt.correct,
+      attempts: 1,
     };
+  } else {
+    // atualiza sem resetar tentativas
+    answered[current].selected = i;
+    answered[current].correct = opt.correct;
+    answered[current].attempts += 1;
+  }
+
+  localStorage.setItem("quiz_state", JSON.stringify(answered));
+
+  showAnswers();
+  updateMenu();
+  updateProgress();
+  updateRetryButton();
+
+  document.getElementById("nextBtn").classList.remove("hidden");
+};
 
     optionsDiv.appendChild(btn);
   });
@@ -174,7 +175,6 @@ function updateRetryButton() {
 
 // reset tentativa
 document.getElementById("retryBtn").onclick = () => {
-  delete answered[current];
   loadQuestion(current);
 };
 
@@ -308,3 +308,23 @@ function closeModal() {
 document.getElementById("nextBtn").onclick = () => {
   nextQuestion();
 };
+
+function resetQuiz() {
+  localStorage.removeItem("quiz_state");
+  answered = {};
+  current = 0;
+
+  loadQuestion(0);
+  updateProgress();
+  updateMenu();
+}
+
+function resetCurrentQuestion() {
+  delete answered[current];
+
+  localStorage.setItem("quiz_state", JSON.stringify(answered));
+
+  loadQuestion(current);
+  updateMenu();
+  updateProgress();
+}
