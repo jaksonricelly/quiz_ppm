@@ -19,8 +19,16 @@ fetch(`./${file}`)
   .then((res) => res.json())
   .then((data) => {
     questions = data.questions;
+
+    // CARREGAR PROGRESSO SALVO
+    const saved = localStorage.getItem("quiz_state");
+    if (saved) {
+      answered = JSON.parse(saved);
+    }
+
     createMenu();
     loadQuestion(0);
+    updateProgress();
   });
 
 function createMenu() {
@@ -100,11 +108,12 @@ function loadQuestion(index) {
           attempts: answered[current].attempts + 1,
         };
       }
-
+      localStorage.setItem("quiz_state", JSON.stringify(answered));
       showAnswers();
       updateMenu();
       updateProgress();
       updateRetryButton();
+
       document.getElementById("nextBtn").classList.remove("hidden");
     };
 
@@ -196,7 +205,7 @@ function showResult() {
       ? q.options[resposta.selected].text
       : "Não respondida";
 
-    const isCorrect = resposta.correct;
+    const isCorrect = resposta ? resposta.correct : false;
 
     if (isCorrect) acertos++;
 
@@ -240,7 +249,9 @@ function downloadResult() {
   questions.forEach((q, index) => {
     const resposta = answered[index];
     const correta = q.options.find((o) => o.correct).text;
-    const marcada = q.options[resposta.selected].text;
+    const marcada = resposta
+      ? q.options[resposta.selected].text
+      : "Não respondida";
 
     const isCorrect = resposta.correct;
 
@@ -271,6 +282,8 @@ document.getElementById("infoBtn").onclick = () => {
 
   document.getElementById("modal-body").innerHTML = formatExplanation();
   document.getElementById("modal").classList.remove("hidden");
+  document.body.classList.add("modal-open");
+  document.body.classList.remove("modal-open");
 };
 
 function formatExplanation() {
