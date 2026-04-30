@@ -6,11 +6,12 @@ quantidade = int(dados[1]) + len(nome)
 print(f"{nome}:{quantidade}")
 
 2#############################
-dados = input("Informe nome e
-quantidade: ").split("#")
-nome = dados[0].strip().title()
-quantidade = int(dados[1]) + len(nome)
-print(f"{nome}:{quantidade}")
+a = 4 
+b = 2.0 
+c = a / 2 == b 
+d = c + a 
+ 
+print(type(d))
 
 3##############################
 
