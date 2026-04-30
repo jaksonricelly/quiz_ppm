@@ -12,7 +12,10 @@ let answered = {};
 //   }
 // }
 
-fetch("./questions_ti.json")
+const params = new URLSearchParams(window.location.search);
+const file = params.get("file") || "questions_ti.json";
+
+fetch(`./${file}`)
   .then((res) => res.json())
   .then((data) => {
     questions = data.questions;

@@ -1,0 +1,804 @@
+{
+  "questions": [
+    {
+    "id": 1,
+    "title": "Perfil empreendedor",
+    "question": "01. Após dois anos à frente de uma loja de roupas, Tatiane percebe queda sistemática nas vendas.\nEla contrata consultor, participa de feiras, revisa o mix de produtos e testa novas estratégias de vitrinismo. As vendas continuam caindo. Considerando o perfil empreendedor, a atitude mais coerente seria:",
+    "options": [
+      {
+        "text": "Abandonar o negócio imediatamente — persistência sem resultado indica inviabilidade.",
+        "correct": false,
+        "comment": "Desistência imediata ignora análise estratégica e aprendizado."
+      },
+      {
+        "text": "Continuar repetindo as mesmas ações, pois resiliência exige constância.",
+        "correct": false,
+        "comment": "Resiliência não significa repetir erros sem adaptação."
+      },
+      {
+        "text": "Analisar se o problema está no modelo de negócio em si e, se necessário, ajustar a proposta mantendo a disciplina de aprendizado contínuo.",
+        "correct": true,
+        "comment": "Perfil empreendedor envolve análise crítica, adaptação e aprendizado contínuo."
+      },
+      {
+        "text": "Contratar mais funcionários para ampliar a capacidade de atendimento.",
+        "correct": false,
+        "comment": "Aumentar estrutura sem resolver o problema central não é estratégico."
+      },
+      {
+        "text": "Reduzir preços agressivamente como estratégia de curto prazo.",
+        "correct": false,
+        "comment": "Pode gerar impacto imediato, mas não resolve causa estrutural."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Perfil empreendedor",
+    "question": "02. Analise as afirmativas abaixo sobre o perfil empreendedor e classifique cada uma como Verdadeira (V) ou Falsa (F): \nI. Resiliência significa manter a mesma estratégia independentemente dos resultados, pois desistir nunca é uma opção.\nII. Buscar oportunidades e ter iniciativa envolve agir por conta própria diante de um problema identificado, mesmo sem que alguém solicite. \nIII. Em uma negociação estratégica, ceder em aspectos secundários para garantir ganhos mais relevantes é sinal de fraqueza comercial. \nIV. A disposição para o aprendizado contínuo inclui buscar feedbacks, mesmo quando eles apontam falhas no próprio modelo de negócio. \nA sequência CORRETA é:",
+    "options": [
+      {
+        "text": "V, V, V, F",
+        "correct": false,
+        "comment": "Resiliência não é rigidez e negociação estratégica não é fraqueza."
+      },
+      {
+        "text": "F, V, F, V",
+        "correct": true,
+        "comment": "Resiliência exige adaptação, iniciativa é agir, negociação envolve estratégia e aprendizado contínuo é essencial."
+      },
+      {
+        "text": "V, F, V, F",
+        "correct": false,
+        "comment": "Inverte conceitos fundamentais de iniciativa e aprendizado."
+      },
+      {
+        "text": "F, F, V, V",
+        "correct": false,
+        "comment": "Afirma incorretamente ausência de iniciativa."
+      },
+      {
+        "text": "V, V, F, F",
+        "correct": false,
+        "comment": "Erra ao tratar resiliência como rigidez."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Planejamento e resiliência",
+    "question": "03. Sobre planejamento, monitoramento e resiliência no contexto empreendedor, assinale a alternativa que contém APENAS afirmativas corretas:",
+    "options": [
+      {
+        "text": "Planejar significa definir metas fixas e segui-las sem alterações; monitorar é verificar se as metas foram batidas ao final do período.",
+        "correct": false,
+        "comment": "Planejamento envolve ajustes contínuos, não rigidez."
+      },
+      {
+        "text": "Resiliência e disciplina envolvem a capacidade de aprender com os erros, adaptar o plano e manter o foco no objetivo — mesmo diante de resultados negativos.",
+        "correct": true,
+        "comment": "Define corretamente resiliência aplicada ao empreendedorismo."
+      },
+      {
+        "text": "Um empreendedor resiliente nunca reconsidera sua proposta original, pois isso demonstra falta de comprometimento com a visão inicial.",
+        "correct": false,
+        "comment": "Revisar estratégia é parte da resiliência."
+      },
+      {
+        "text": "Monitorar indicadores é útil apenas em grandes empresas; em pequenos negócios, a intuição do empreendedor substitui os dados.",
+        "correct": false,
+        "comment": "Dados são essenciais em qualquer porte de negócio."
+      },
+      {
+        "text": "Planejamento e resiliência são habilidades opostas: quem planeja muito tende a ser menos resiliente.",
+        "correct": false,
+        "comment": "São habilidades complementares."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Negociação estratégica",
+    "question": "04. Numa negociação estratégica bem conduzida, as etapas abaixo foram listadas fora de ordem: \nI. Identificar quais concessões são aceitáveis sem comprometer os objetivos centrais. \nII. Mapear os interesses do outro lado e entender o que ele valoriza. \nIII. Definir com clareza o que é prioritário para o seu negócio antes de negociar. \nIV. Fechar o acordo, garantindo que os pontos estratégicos foram preservados. \nV. Propor trocas: ceder no que é menos crítico para ganhar no que é mais relevante. \nA sequência lógica CORRETA é:",
+    "options": [
+      {
+        "text": "II → I → III → V → IV",
+        "correct": false,
+        "comment": "Falta definição inicial de prioridades."
+      },
+      {
+        "text": "III → II → I → V → IV",
+        "correct": true,
+        "comment": "Primeiro define prioridades, depois entende o outro lado, define limites, negocia trocas e finaliza."
+      },
+      {
+        "text": "I → III → II → IV → V",
+        "correct": false,
+        "comment": "Ordem estratégica incoerente."
+      },
+      {
+        "text": "III → I → IV → II → V",
+        "correct": false,
+        "comment": "Fecha antes de negociar corretamente."
+      },
+      {
+        "text": "II → III → V → I → IV",
+        "correct": false,
+        "comment": "Sequência desalinhada com processo estratégico."
+      }
+    ]
+  },
+   {
+    "id": 5,
+    "title": "Identificação de oportunidades",
+    "question": "05. Analise as afirmativas sobre identificação de oportunidades e classifique como: Verdadeira (V) ou Falsa (F):\nI. Toda ideia criativa é automaticamente uma oportunidade de negócio, bastando ter iniciativa para executá-la.\nII. Identificar uma tendência de consumo envolve verificar se o comportamento observado tem crescimento consistente e sustentado, não apenas popularidade momentânea.\nIII. Uma oportunidade de negócio se diferencia de uma ideia por estar associada a uma demanda real, um público definido e viabilidade de execução.\nIV. Observar lacunas deixadas pela concorrência é uma das formas de identificar oportunidades reais de mercado.\nA sequência CORRETA é:",
+    "options": [
+      {
+        "text": "V, V, V, V",
+        "correct": false,
+        "comment": "Nem toda ideia é oportunidade, falta validar demanda e viabilidade."
+      },
+      {
+        "text": "V, F, V, F",
+        "correct": false,
+        "comment": "Erra ao negar análise de tendência e mercado."
+      },
+      {
+        "text": "F, V, V, V",
+        "correct": true,
+        "comment": "Ideia não garante oportunidade; tendência, demanda real e lacunas definem oportunidade."
+      },
+      {
+        "text": "F, F, V, V",
+        "correct": false,
+        "comment": "Identificar tendência corretamente é essencial."
+      },
+      {
+        "text": "V, V, F, V",
+        "correct": false,
+        "comment": "Oportunidade exige viabilidade, não apenas ideia."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Oportunidade de negócio",
+    "question": "06. Luana quer abrir um serviço de personal stylist online. Ela tem paixão por moda e já ajudou amigas informalmente. Ao pesquisar, descobre que existem 12 plataformas similares no Brasil, mas nenhuma atende mulheres acima de 50 anos — público que representa 28% das consumidoras de moda online e que reclama de não se sentir representada. O que transforma a ideia de Luana em uma oportunidade real?",
+    "options": [
+      {
+        "text": "A paixão por moda e a experiência informal com amigas.",
+        "correct": false,
+        "comment": "Paixão não garante viabilidade de mercado."
+      },
+      {
+        "text": "O tamanho geral do mercado de moda online no Brasil.",
+        "correct": false,
+        "comment": "Mercado grande não garante oportunidade específica."
+      },
+      {
+        "text": "A lacuna identificada: um segmento com demanda real e mal atendido pela concorrência existente.",
+        "correct": true,
+        "comment": "Oportunidade surge da demanda real não atendida."
+      },
+      {
+        "text": "O fato de já existirem 12 concorrentes, o que valida que o mercado é lucrativo.",
+        "correct": false,
+        "comment": "Concorrência não define oportunidade por si só."
+      },
+      {
+        "text": "A quantidade de plataformas, que indica mercado saturado e deve ser evitado.",
+        "correct": false,
+        "comment": "Há espaço quando existe lacuna específica."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Criatividade com recursos limitados",
+    "question": "07. Com R$ 800 disponíveis para iniciar um negócio de brigadeiros artesanais, Fernanda avalia quatro caminhos:\nI. alugar espaço por R$ 600/mês;\nII. vender por encomendas pelo Instagram, produzindo na própria cozinha;\nIII. aguardar juntar mais dinheiro;\nIV. fazer empréstimo bancário.\nConsiderando o princípio da criatividade com recursos limitados, qual caminho é mais coerente?",
+    "options": [
+      {
+        "text": "Opção I — espaço físico transmite credibilidade.",
+        "correct": false,
+        "comment": "Alto custo inicial aumenta risco."
+      },
+      {
+        "text": "Opção III — iniciar sem capital suficiente aumenta o risco de fracasso.",
+        "correct": false,
+        "comment": "Adiar impede aprendizado e validação."
+      },
+      {
+        "text": "Opção IV — o empreendedor não deve se limitar aos recursos disponíveis.",
+        "correct": false,
+        "comment": "Endividamento inicial aumenta risco desnecessário."
+      },
+      {
+        "text": "Opção II — permite testar o modelo, gerar receita e crescer com os próprios resultados.",
+        "correct": true,
+        "comment": "Começar pequeno permite validar e crescer com baixo risco."
+      },
+      {
+        "text": "Nenhuma — o mercado de brigadeiros artesanais já está saturado.",
+        "correct": false,
+        "comment": "Saturação não impede inovação e diferenciação."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Identificação de problemas",
+    "question": "08. Sobre o processo de identificação e compreensão do problema antes de propor soluções, assinale a alternativa que contém APENAS afirmativas corretas:",
+    "options": [
+      {
+        "text": "O empreendedor deve desenvolver a solução primeiro e, após o lançamento, identificar qual problema ela resolve — pois o mercado responde melhor a produtos concretos do que a pesquisas.",
+        "correct": false,
+        "comment": "Criar sem entender o problema gera desperdício."
+      },
+      {
+        "text": "Compreender o problema com profundidade, ouvindo o público afetado e observando o contexto, é o ponto de partida para criar uma solução relevante e evitar desperdício de recursos.",
+        "correct": true,
+        "comment": "Entender o problema é base para soluções eficazes."
+      },
+      {
+        "text": "Conversar com o público-alvo antes de criar a solução é dispensável quando o empreendedor tem experiência prévia no setor.",
+        "correct": false,
+        "comment": "Experiência não substitui validação real."
+      },
+      {
+        "text": "A criatividade empreendedora dispensa a etapa de mapeamento do problema — boas ideias surgem da intuição, não da análise.",
+        "correct": false,
+        "comment": "Ideias precisam de validação prática."
+      },
+      {
+        "text": "A experiência de mercado do empreendedor, por si só, garante que ele conhece o problema com profundidade suficiente para propor soluções sem pesquisa prévia.",
+        "correct": false,
+        "comment": "Pesquisa continua sendo necessária."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Proposta de valor",
+    "question": "09. Uma empresa de software exibe: 'Somos a melhor solução do mercado, com tecnologia de ponta e equipe altamente qualificada.' Outra apresenta: 'Reduzimos em 40% o tempo gasto por clínicas médicas no agendamento de consultas — sem treinamento técnico necessário.' Qual possui proposta de valor mais eficiente e por quê?",
+    "options": [
+      {
+        "text": "A primeira — atributos internos transmitem confiança ao cliente.",
+        "correct": false,
+        "comment": "Foca na empresa, não no benefício direto."
+      },
+      {
+        "text": "A segunda — apresenta um benefício claro, mensurável e relevante para o cliente.",
+        "correct": true,
+        "comment": "Proposta de valor eficaz mostra ganho concreto ao cliente."
+      },
+      {
+        "text": "Ambas são igualmente eficientes.",
+        "correct": false,
+        "comment": "A primeira é genérica e pouco específica."
+      },
+      {
+        "text": "A primeira — linguagem técnica agrega valor percebido.",
+        "correct": false,
+        "comment": "Excesso de generalização reduz clareza."
+      },
+      {
+        "text": "Nenhuma — propostas de valor devem evitar dados quantitativos.",
+        "correct": false,
+        "comment": "Dados fortalecem a proposta."
+      }
+    ]
+  },
+   {
+    "id": 10,
+    "title": "Diferencial competitivo",
+    "question": "10. Analise as afirmativas sobre diferencial competitivo e classifique como: Verdadeira (V) ou Falsa (F):\nI. Ter o menor preço do mercado é sempre o diferencial competitivo mais sustentável para qualquer negócio.\nII. Um diferencial competitivo é construído quando o negócio resolve algo que os concorrentes não resolvem, ou resolve melhor para um público específico.\nIII. Dois negócios que vendem o mesmo produto podem ter diferenciais competitivos distintos, baseados em atendimento, experiência ou conveniência.\nIV. Identificar lacunas deixadas pela concorrência é uma das formas de construir um diferencial relevante.\nA sequência CORRETA é:",
+    "options": [
+      {
+        "text": "V, V, V, V",
+        "correct": false,
+        "comment": "Preço baixo nem sempre é sustentável como estratégia."
+      },
+      {
+        "text": "V, V, F, V",
+        "correct": false,
+        "comment": "Negócios iguais podem se diferenciar em experiência."
+      },
+      {
+        "text": "F, V, V, V",
+        "correct": true,
+        "comment": "Preço não garante vantagem sustentável; diferenciação vem de valor, experiência e lacunas do mercado."
+      },
+      {
+        "text": "F, F, V, V",
+        "correct": false,
+        "comment": "Resolver melhor um problema é base do diferencial."
+      },
+      {
+        "text": "V, F, V, F",
+        "correct": false,
+        "comment": "Ignora conceito correto de diferenciação."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Persona e comunicação",
+    "question": "11. Uma marca de suplementos não definiu sua Persona e decidiu comunicar seus produtos para 'todos que se preocupam com saúde'. Após seis meses de investimento em marketing, as vendas ficaram muito abaixo do esperado. Qual é a consequência mais direta de não construir a Persona do negócio?",
+    "options": [
+      {
+        "text": "O produto perde qualidade por falta de foco no desenvolvimento.",
+        "correct": false,
+        "comment": "Qualidade do produto não depende diretamente da persona."
+      },
+      {
+        "text": "A comunicação se torna genérica, diluindo recursos e não ressoando com nenhum público de forma específica.",
+        "correct": true,
+        "comment": "Sem persona, a mensagem perde foco e não conecta com ninguém."
+      },
+      {
+        "text": "A empresa fica impossibilitada de definir o preço correto.",
+        "correct": false,
+        "comment": "Preço não depende exclusivamente da persona."
+      },
+      {
+        "text": "O negócio fica vulnerável à concorrência por não registrar sua marca.",
+        "correct": false,
+        "comment": "Registro de marca é outra questão estratégica."
+      },
+      {
+        "text": "O funil de vendas deixa de funcionar por falta de público suficiente.",
+        "correct": false,
+        "comment": "O problema é foco, não quantidade de público."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Estratégia de diferenciação",
+    "question": "12. Para construir uma estratégia de diferenciação consistente, as etapas abaixo foram listadas fora de ordem:\nI. Definir a proposta de valor com base na dor identificada.\nII. Comunicar o diferencial ao público de forma clara e objetiva.\nIII. Identificar quem é o cliente ideal (Persona) e quais são suas principais dores.\nIV. Analisar o que os concorrentes oferecem e onde deixam lacunas.\nV. Validar se a proposta de valor ressoa com o público-alvo real.\nA sequência lógica CORRETA é:",
+    "options": [
+      {
+        "text": "I → III → IV → II → V",
+        "correct": false,
+        "comment": "Define valor antes de entender o cliente."
+      },
+      {
+        "text": "IV → I → III → V → II",
+        "correct": false,
+        "comment": "Analisa concorrência antes de definir persona."
+      },
+      {
+        "text": "III → IV → I → V → II",
+        "correct": true,
+        "comment": "Primeiro entende o cliente, analisa mercado, define valor, valida e comunica."
+      },
+      {
+        "text": "III → I → IV → II → V",
+        "correct": false,
+        "comment": "Falta validar antes de comunicar."
+      },
+      {
+        "text": "IV → III → I → II → V",
+        "correct": false,
+        "comment": "Ordem desalinhada com construção estratégica."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Mix de Marketing (4Ps)",
+    "question": "13. Uma pequena produtora de mel artesanal vende a R$ 35 o pote, somente em feiras locais, sem embalagem profissional. Um consultor sugere três mudanças: (1) desenvolver embalagem com design profissional e informações nutricionais — melhorando a apresentação do produto; (2) vender pelo Instagram com entrega em domicílio — ampliando os canais de venda; (3) manter o preço atual. Considerando que embalagem é parte integrante do Produto no Mix de Marketing, quais elementos dos 4Ps são diretamente impactados?",
+    "options": [
+      {
+        "text": "Apenas Praça — somente o canal de venda foi alterado.",
+        "correct": false,
+        "comment": "A embalagem altera o produto também."
+      },
+      {
+        "text": "Preço e Promoção — a nova embalagem é uma ação de comunicação e o Instagram é publicidade.",
+        "correct": false,
+        "comment": "Embalagem faz parte do produto, não só da promoção."
+      },
+      {
+        "text": "Produto e Praça, com reflexo positivo na percepção de Promoção da marca.",
+        "correct": true,
+        "comment": "Embalagem altera o produto e Instagram altera a distribuição."
+      },
+      {
+        "text": "Apenas Promoção — tanto o rótulo quanto o Instagram são ferramentas de divulgação.",
+        "correct": false,
+        "comment": "Ignora impacto no produto e canal de venda."
+      },
+      {
+        "text": "Os quatro Ps foram impactados igualmente pelas mudanças sugeridas.",
+        "correct": false,
+        "comment": "Preço não foi alterado."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Preço e valor percebido",
+    "question": "14. Analise as afirmativas sobre preço e valor percebido e classifique como: Verdadeira (V) ou Falsa (F):\nI. Quando os clientes demonstram disposição para pagar mais por atributos específicos, reduzir o preço é a estratégia mais indicada para ampliar a base de clientes.\nII. Investir no aumento do valor percebido — como embalagem, atendimento e experiência — pode justificar preços mais altos sem perda de clientes.\nIII. O preço de um produto comunica ao mercado uma percepção de qualidade — produtos muito baratos podem ser associados a baixa qualidade mesmo que isso não seja verdade.\nIV. A estratégia de precificação deve ser definida independentemente do comportamento e das expectativas do consumidor.\nA sequência CORRETA é:",
+    "options": [
+      {
+        "text": "V, V, V, V",
+        "correct": false,
+        "comment": "Preço não deve ser reduzido automaticamente nem ignorar o consumidor."
+      },
+      {
+        "text": "F, V, V, F",
+        "correct": true,
+        "comment": "Preço deve considerar valor percebido e comportamento do cliente."
+      },
+      {
+        "text": "V, F, F, V",
+        "correct": false,
+        "comment": "Valor percebido e percepção de qualidade são fundamentais."
+      },
+      {
+        "text": "F, V, F, V",
+        "correct": false,
+        "comment": "Preço influencia percepção de qualidade."
+      },
+      {
+        "text": "V, F, V, F",
+        "correct": false,
+        "comment": "Reduzir preço não é sempre estratégia correta."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Funil de vendas",
+    "question": "15. Uma escola de idiomas tem 12 mil seguidores no Instagram; cada post alcança 4.000 pessoas; o link na bio recebe 300 cliques/semana; 80 pessoas preenchem o formulário de interesse; mas apenas 15 fecham matrícula. Em qual etapa do funil está o maior gargalo e qual ação seria mais estratégica?",
+    "options": [
+      {
+        "text": "Topo do funil — investir em mais conteúdo para aumentar o alcance.",
+        "correct": false,
+        "comment": "Alcance já é significativo."
+      },
+      {
+        "text": "Passagem do meio para o fundo do funil — entre o interesse declarado e a decisão de compra, melhorando a abordagem comercial após o preenchimento do formulário.",
+        "correct": true,
+        "comment": "Muitos interessados não convertem, indicando falha na conversão final."
+      },
+      {
+        "text": "Topo do funil — o número de seguidores ainda é insuficiente.",
+        "correct": false,
+        "comment": "O problema não está na atração."
+      },
+      {
+        "text": "Base do funil — o produto precisa ser reformulado.",
+        "correct": false,
+        "comment": "O problema é abordagem comercial, não o produto."
+      },
+      {
+        "text": "Meio do funil — aumentar a frequência de postagens para gerar mais cliques.",
+        "correct": false,
+        "comment": "Cliques existem, falta conversão."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Estratégia digital e branding",
+    "question": "16. Sobre estratégia digital e branding, assinale a alternativa que contém APENAS afirmativas corretas:",
+    "options": [
+      {
+        "text": "Uma estratégia digital eficiente foca exclusivamente em publicações de venda direta; branding é responsabilidade do departamento de design, não da estratégia.",
+        "correct": false,
+        "comment": "Estratégia digital envolve mais que venda direta."
+      },
+      {
+        "text": "Branding é construído apenas por grandes empresas com alto orçamento de marketing — pequenos negócios devem priorizar apenas vendas.",
+        "correct": false,
+        "comment": "Branding é essencial para qualquer negócio."
+      },
+      {
+        "text": "Uma estratégia digital eficiente integra conteúdo, relacionamento e conversão; o branding constrói identidade e percepção de marca de forma consistente em todos os pontos de contato com o cliente.",
+        "correct": true,
+        "comment": "Integração e consistência definem estratégia digital eficaz."
+      },
+      {
+        "text": "Postar com alta frequência nas redes sociais é, por si só, uma estratégia digital completa e suficiente para gerar vendas.",
+        "correct": false,
+        "comment": "Frequência não substitui estratégia."
+      },
+      {
+        "text": "O branding se resume à criação de um logotipo e à escolha de cores para a marca.",
+        "correct": false,
+        "comment": "Branding envolve percepção e posicionamento."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Branding",
+    "question": "17. Duas marcas de tênis vendem produtos com qualidade e preço similares. A Marca A investe continuamente em associar sua imagem a valores como superação e identidade cultural. A Marca B foca em promoções frequentes e descontos. Com o tempo, a Marca A cobra 60% a mais e ainda tem filas no lançamento de novos modelos. O que melhor explica essa diferença?",
+    "options": [
+      {
+        "text": "A Marca A tem melhor logística de distribuição, justificando o preço mais alto.",
+        "correct": false,
+        "comment": "Logística não explica valor percebido elevado."
+      },
+      {
+        "text": "A Marca A investe mais em tecnologia de fabricação, gerando produto objetivamente superior.",
+        "correct": false,
+        "comment": "Qualidade é semelhante entre as marcas."
+      },
+      {
+        "text": "A Marca A construiu um branding sólido — identidade e percepção de marca que geram valor emocional além do produto físico.",
+        "correct": true,
+        "comment": "Branding forte permite cobrar mais e gerar desejo."
+      },
+      {
+        "text": "A Marca B errou ao usar descontos, pois isso reduz margem sem fidelizar clientes.",
+        "correct": false,
+        "comment": "Não explica diretamente o sucesso da outra marca."
+      },
+      {
+        "text": "A diferença se explica exclusivamente pelo maior investimento em publicidade da Marca A.",
+        "correct": false,
+        "comment": "Publicidade não substitui construção de marca."
+      }
+    ]
+  },
+   {
+    "id": 18,
+    "title": "Presença digital e conversão",
+    "question": "18. Analise as afirmativas sobre presença digital e conversão e classifique como: Verdadeira (V) ou Falsa (F):\nI. Ter alto engajamento nas redes sociais (curtidas e comentários) garante automaticamente um volume proporcional de vendas.\nII. Engajamento alto com vendas baixas geralmente indica um gargalo na jornada de conversão — e não necessariamente um problema no conteúdo.\nIII. Incluir chamadas para ação claras nas publicações (como 'clique no link' ou 'fale conosco') é uma prática que auxilia na passagem do cliente para as etapas mais avançadas do funil.\nIV. Uma estratégia digital que integra conteúdo, relacionamento e conversão tende a ser mais eficiente do que aquela focada apenas em volume de publicações.\nA sequência CORRETA é:",
+    "options": [
+      {
+        "text": "V, V, V, V",
+        "correct": false,
+        "comment": "Engajamento não garante vendas automaticamente."
+      },
+      {
+        "text": "V, F, V, F",
+        "correct": false,
+        "comment": "Ignora gargalos de conversão e estratégia integrada."
+      },
+      {
+        "text": "F, V, V, V",
+        "correct": true,
+        "comment": "Engajamento não garante venda; conversão depende de estratégia e funil bem estruturado."
+      },
+      {
+        "text": "F, F, V, V",
+        "correct": false,
+        "comment": "Desconsidera relação entre engajamento e conversão."
+      },
+      {
+        "text": "V, V, F, V",
+        "correct": false,
+        "comment": "Chamadas para ação são essenciais no funil."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Business Model Canvas",
+    "question": "19. Ao preencher o Business Model Canvas, Diego percebe que seus canais de distribuição são todos digitais, mas seu público-alvo tem baixo acesso à internet. Qual é a principal utilidade do Canvas nesse momento?",
+    "options": [
+      {
+        "text": "Permitir que Diego calcule com precisão o custo de aquisição de cada cliente.",
+        "correct": false,
+        "comment": "Canvas não é ferramenta de cálculo detalhado."
+      },
+      {
+        "text": "Evidenciar uma inconsistência estratégica entre a proposta de valor e o canal escolhido, antes de o negócio ser lançado.",
+        "correct": true,
+        "comment": "Canvas serve para identificar incoerências no modelo de negócio."
+      },
+      {
+        "text": "Garantir que o negócio será bem-sucedido após os ajustes necessários.",
+        "correct": false,
+        "comment": "Não garante sucesso, apenas organiza hipóteses."
+      },
+      {
+        "text": "Substituir a necessidade de validação com clientes reais.",
+        "correct": false,
+        "comment": "Validação prática continua sendo essencial."
+      },
+      {
+        "text": "Definir automaticamente a precificação mais adequada para o público-alvo.",
+        "correct": false,
+        "comment": "Preço depende de análise externa."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Business Model Canvas",
+    "question": "20. Analise as afirmativas sobre o Business Model Canvas e classifique como Verdadeira (V) ou Falsa (F):\nI. O Canvas é uma ferramenta que garante o sucesso do negócio quando preenchido corretamente.\nII. O Canvas organiza hipóteses sobre o modelo de negócio, mas essas hipóteses precisam ser validadas com clientes reais.\nIII. Um dos principais benefícios do Canvas é permitir visualizar de forma integrada os diferentes componentes do negócio e identificar inconsistências entre eles.\nIV. O Canvas pode ser utilizado tanto na fase de planejamento quanto para revisar e ajustar um negócio já em operação.\nA sequência CORRETA é:",
+    "options": [
+      {
+        "text": "V, V, V, V",
+        "correct": false,
+        "comment": "Canvas não garante sucesso."
+      },
+      {
+        "text": "V, F, V, F",
+        "correct": false,
+        "comment": "Hipóteses precisam ser validadas."
+      },
+      {
+        "text": "F, V, V, V",
+        "correct": true,
+        "comment": "Canvas organiza hipóteses, integra visão e apoia ajustes contínuos."
+      },
+      {
+        "text": "F, V, F, V",
+        "correct": false,
+        "comment": "Integração é uma das principais vantagens do Canvas."
+      },
+      {
+        "text": "V, V, F, V",
+        "correct": false,
+        "comment": "Não garante sucesso e integra os elementos."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Validação de hipóteses",
+    "question": "21. Antes de investir R$ 50.000 no desenvolvimento completo de um aplicativo, a equipe de Larissa decide construir uma versão com apenas 3 funcionalidades essenciais e testá-la com 20 usuários reais. Dois concorrentes já lançaram apps completos. Um colega critica: 'produto incompleto não convence ninguém.' Avalie essa crítica:",
+    "options": [
+      {
+        "text": "Correta — protótipo com poucas funcionalidades passa imagem de amadorismo.",
+        "correct": false,
+        "comment": "Protótipo não tem objetivo de imagem final."
+      },
+      {
+        "text": "Correta — com concorrentes estabelecidos, lançar produto incompleto é desvantagem estratégica.",
+        "correct": false,
+        "comment": "Validação reduz risco antes de competir."
+      },
+      {
+        "text": "Incorreta — o objetivo do protótipo não é convencer o mercado, mas testar hipóteses e aprender antes de comprometer alto investimento.",
+        "correct": true,
+        "comment": "Protótipo serve para validar e aprender com baixo custo."
+      },
+      {
+        "text": "Incorreta apenas se o protótipo for testado com o público correto.",
+        "correct": false,
+        "comment": "A crítica é incorreta independentemente disso."
+      },
+      {
+        "text": "Correta — em mercados com concorrência, velocidade de lançamento supera qualidade de validação.",
+        "correct": false,
+        "comment": "Validar antes reduz riscos estratégicos."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Validação de hipóteses",
+    "question": "22. Sobre validação de hipóteses no empreendedorismo, assinale a alternativa que contém APENAS afirmativas corretas:",
+    "options": [
+      {
+        "text": "Validar hipóteses significa consultar especialistas do setor para confirmar se a ideia é tecnicamente viável.",
+        "correct": false,
+        "comment": "Validação exige contato com o mercado real."
+      },
+      {
+        "text": "Pesquisar dados secundários em relatórios de mercado é suficiente para validar todas as hipóteses de um novo negócio.",
+        "correct": false,
+        "comment": "Dados secundários não substituem validação prática."
+      },
+      {
+        "text": "Validar hipóteses envolve testar as premissas do negócio com dados e feedbacks reais do mercado — especialmente junto ao público-alvo — antes de comprometer grandes investimentos.",
+        "correct": true,
+        "comment": "Validação real reduz risco e orienta decisões."
+      },
+      {
+        "text": "Lançar o produto completo e analisar os resultados após 6 meses é a forma mais confiável de validação.",
+        "correct": false,
+        "comment": "Validação deve ocorrer antes do investimento alto."
+      },
+      {
+        "text": "A validação é necessária apenas para startups de tecnologia — negócios tradicionais dispensam esse processo.",
+        "correct": false,
+        "comment": "Todo negócio precisa validar hipóteses."
+      }
+    ]
+  },
+   {
+    "id": 23,
+    "title": "Validação de hipóteses",
+    "question": "23. Após 8 meses desenvolvendo um app de organização para estudantes universitários, a equipe de Roberta descobre — após o lançamento — que o problema real dos usuários não era a falta de organização, mas a dificuldade em manter a motivação durante os estudos. O app é abandonado após 3 dias de uso. Qual etapa foi negligenciada?",
+    "options": [
+      {
+        "text": "Prototipagem — o app deveria ter mais funcionalidades antes do lançamento.",
+        "correct": false,
+        "comment": "Mais funcionalidades não resolvem problema errado."
+      },
+      {
+        "text": "Branding — sem identidade visual forte, o usuário não cria vínculo com o produto.",
+        "correct": false,
+        "comment": "O problema não é imagem, é falta de aderência à necessidade real."
+      },
+      {
+        "text": "Validação de hipóteses com usuários reais antes do desenvolvimento completo, o que teria revelado a dor real do público.",
+        "correct": true,
+        "comment": "Faltou validar o problema antes de desenvolver a solução."
+      },
+      {
+        "text": "Pitch — se melhor apresentado, os usuários teriam compreendido o valor.",
+        "correct": false,
+        "comment": "Apresentação não corrige problema errado."
+      },
+      {
+        "text": "Canvas — a equipe deveria ter revisado o modelo antes do lançamento.",
+        "correct": false,
+        "comment": "O erro central foi não validar com usuários reais."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Processo empreendedor",
+    "question": "24. As etapas do processo empreendedor foram listadas fora de ordem:\nI. Estruturar o modelo de negócio no Canvas com as hipóteses iniciais.\nII. Apresentar o negócio de forma clara e persuasiva a investidores ou parceiros (Pitch).\nIII. Validar as hipóteses com clientes reais — entrevistas, testes e feedbacks.\nIV. Construir um protótipo com as funcionalidades essenciais para novos testes.\nV. Identificar o problema e o público que será atendido.\nA sequência lógica CORRETA é:",
+    "options": [
+      {
+        "text": "I → V → III → IV → II",
+        "correct": false,
+        "comment": "Começa sem identificar problema."
+      },
+      {
+        "text": "V → IV → I → III → II",
+        "correct": false,
+        "comment": "Protótipo antes do modelo não é ideal."
+      },
+      {
+        "text": "V → I → IV → III → II",
+        "correct": false,
+        "comment": "Validação deve ocorrer antes do protótipo completo."
+      },
+      {
+        "text": "I → III → V → IV → II",
+        "correct": false,
+        "comment": "Ordem começa sem definição de problema."
+      },
+      {
+        "text": "V → I → III → IV → II",
+        "correct": true,
+        "comment": "Primeiro define problema, estrutura modelo, valida, prototipa e só depois apresenta."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Processo empreendedor aplicado",
+    "question": "25. Rafael estruturou seu modelo de negócio no Canvas e identificou como hipótese central que médicos independentes pagariam por um software de gestão de agenda. Antes de desenvolver o software completo, entrevistou 30 médicos e descobriu que o real problema era o alto índice de faltas dos pacientes — não a gestão da agenda. Reformulou o produto para focar em confirmação automática de consultas por WhatsApp, testou com 5 médicos por 30 dias e comprovou redução de 60% nas faltas. Ao buscar investimento, apresentou tudo isso em 4 minutos. Qual sequência de práticas empreendedoras Rafael aplicou corretamente?",
+    "options": [
+      {
+        "text": "Branding → Persona → Canvas → Pitch.",
+        "correct": false,
+        "comment": "Não representa o processo descrito."
+      },
+      {
+        "text": "Canvas → Validação de hipóteses → Prototipagem → Pitch.",
+        "correct": true,
+        "comment": "Seguiu o fluxo correto: estruturou, validou, testou e apresentou."
+      },
+      {
+        "text": "Pitch → Canvas → Prototipagem → Validação.",
+        "correct": false,
+        "comment": "Pitch ocorre após validação."
+      },
+      {
+        "text": "Persona → Proposta de valor → Funil de vendas → Pitch.",
+        "correct": false,
+        "comment": "Sequência não corresponde ao caso."
+      },
+      {
+        "text": "Canvas → Prototipagem → Branding → Validação.",
+        "correct": false,
+        "comment": "Validação deve vir antes de desenvolver totalmente."
+      }
+    ]
+  }
+  ]
+}
