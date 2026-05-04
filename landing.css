@@ -57,6 +57,74 @@ body {
   margin-bottom: 15px;
   color: #22c55e;
 }
+.timeline {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 30px;
+  border-left: 2px solid #334155;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+/* texto */
+.timeline-item span {
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+.timeline-item p {
+  margin-top: 5px;
+}
+
+/* bolinha */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background: #334155;
+  border-radius: 50%;
+}
+
+/* passado */
+.timeline-item.past {
+  opacity: 0.3;
+}
+
+/* atual */
+.timeline-item.current {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.timeline-item.current::before {
+  background: #22c55e;
+  box-shadow: 0 0 10px #22c55e;
+}
+
+/* avião */
+.timeline-item.current::after {
+  content: "✈️";
+  position: absolute;
+  left: -40px;
+  top: -2px;
+  font-size: 18px;
+  animation: flyMove 1.5s ease-in-out infinite alternate;
+}
+
+/* animação leve */
+@keyframes flyMove {
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(5px); }
+}
 
 /* BOTÕES */
 .buttons {
