@@ -79,7 +79,17 @@ function loadQuestion(index) {
 
   document.getElementById("q-title").innerText = selectedQuestion.title;
   document.getElementById("q-text").innerText = selectedQuestion.question;
+  const container = document.getElementById("q-images");
+  container.innerHTML = "";
 
+  if (selectedQuestion.images) {
+    selectedQuestion.images.forEach((src) => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.classList.add("q-image");
+      container.appendChild(img);
+    });
+  }
   const optionsDiv = document.getElementById("options");
   optionsDiv.innerHTML = "";
 
@@ -87,36 +97,35 @@ function loadQuestion(index) {
     const btn = document.createElement("button");
     btn.setAttribute("data-letter", ["A)", "B)", "C)", "D)", "E)"][i]);
     btn.innerText = opt.text;
-btn.onclick = () => {
+    btn.onclick = () => {
+      // se já acertou, trava
+      if (answered[current] && answered[current].correct) return;
 
-  // se já acertou, trava
-  if (answered[current] && answered[current].correct) return;
+      // se já usou 2 tentativas, trava
+      if (answered[current] && answered[current].attempts >= 2) return;
 
-  // se já usou 2 tentativas, trava
-  if (answered[current] && answered[current].attempts >= 2) return;
+      if (!answered[current]) {
+        answered[current] = {
+          selected: i,
+          correct: opt.correct,
+          attempts: 1,
+        };
+      } else {
+        // atualiza sem resetar tentativas
+        answered[current].selected = i;
+        answered[current].correct = opt.correct;
+        answered[current].attempts += 1;
+      }
 
-  if (!answered[current]) {
-    answered[current] = {
-      selected: i,
-      correct: opt.correct,
-      attempts: 1,
+      localStorage.setItem("quiz_state", JSON.stringify(answered));
+
+      showAnswers();
+      updateMenu();
+      updateProgress();
+      updateRetryButton();
+
+      document.getElementById("nextBtn").classList.remove("hidden");
     };
-  } else {
-    // atualiza sem resetar tentativas
-    answered[current].selected = i;
-    answered[current].correct = opt.correct;
-    answered[current].attempts += 1;
-  }
-
-  localStorage.setItem("quiz_state", JSON.stringify(answered));
-
-  showAnswers();
-  updateMenu();
-  updateProgress();
-  updateRetryButton();
-
-  document.getElementById("nextBtn").classList.remove("hidden");
-};
 
     optionsDiv.appendChild(btn);
   });

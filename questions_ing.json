@@ -1,0 +1,287 @@
+{
+  "questions": [
+  {
+    "id": 1,
+    "title": "Reading",
+    "images": [],
+    "question": "In recent years, Latin American countries have made significant progress in developing regulatory frameworks for artificial intelligence, reflecting a growing awareness of both its potential benefits and associated risks. Governments are increasingly concerned about how AI systems may reinforce existing inequalities when trained on biased datasets. As a result, policymakers are prioritizing transparency, accountability, and ethical governance in sectors such as healthcare, finance, and education. However, designing effective regulations remains a complex challenge, as overly strict policies may discourage innovation and investment. Experts argue that flexible and adaptive legal structures are better suited to rapidly evolving technologies. In addition, regional collaboration is essential to avoid fragmentation and ensure consistent standards across countries. International organizations have also played a key role in supporting policy development. As AI adoption accelerates, governance strategies are becoming central to economic and social policy discussions. This trend is expected to shape innovation ecosystems across the region in the coming years.\n\nSource: Inter-American Development Bank – https://publications.iadb.org. Accessed in April, 2026.",
+    "options": [
+      { "text": "AI regulation is decreasing in importance", "correct": false, "comment": "" },
+      { "text": "Governments are ignoring AI risks", "correct": false, "comment": "" },
+      { "text": "AI governance is becoming a key policy issue", "correct": true, "comment": "Ideia central: governança de IA se torna tema principal nas políticas." },
+      { "text": "Innovation is being eliminated", "correct": false, "comment": "" },
+      { "text": "AI is only used in finance", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Reading",
+    "images": [],
+    "question": "Global discussions in 2026 have increasingly emphasized the need for coordinated governance of artificial intelligence technologies. As AI systems become more powerful and accessible, concerns about misuse, including deepfakes and automated cyberattacks, have intensified. At major international forums, governments and organizations have stressed the importance of developing shared standards to guide responsible innovation. However, achieving consensus remains difficult due to differences in economic priorities and political systems. Some analysts argue that fragmented regulations could hinder technological progress and global trade. Others believe localized regulation allows countries to better address their own societal needs. Despite these challenges, the urgency of cooperation continues to grow. Experts warn that without coordination, risks may escalate rapidly. As a result, international governance is emerging as a central issue in the future of AI.\n\nSource: The Economic Times – https://economictimes.indiatimes.com. Accessed in April, 2026.",
+    "options": [
+      { "text": "Countries have already agreed on all AI laws", "correct": false, "comment": "" },
+      { "text": "AI risks are no longer relevant", "correct": false, "comment": "" },
+      { "text": "Global cooperation in AI is increasingly necessary", "correct": true, "comment": "Palavra-chave: 'coordinated governance' indica cooperação global." },
+      { "text": "Regulation is not needed", "correct": false, "comment": "" },
+      { "text": "AI development is slowing", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Reading",
+    "images": [],
+    "question": "A new artificial intelligence initiative in Latin America aims to address persistent bias in global AI systems by incorporating regional languages and culturally relevant data. Many existing AI models rely heavily on datasets from English-speaking countries, which can lead to inaccuracies when applied elsewhere. Researchers are now developing open-source models that reflect the diversity of Latin American societies. This effort not only improves technological accuracy but also strengthens regional innovation capacity. However, the project faces challenges such as limited funding, infrastructure constraints, and competition from large global companies. Despite these obstacles, experts believe that such initiatives are crucial for achieving digital inclusion. They also highlight the importance of local expertise in shaping AI development. The project represents a broader movement toward technological independence. Ultimately, it reflects the growing role of emerging markets in global innovation.\n\nSource: Associated Press – https://apnews.com. Accessed in April, 2026.",
+    "options": [
+      { "text": "AI models are already unbiased", "correct": false, "comment": "" },
+      { "text": "The initiative promotes inclusion and local innovation", "correct": true, "comment": "Foco em inclusão digital e inovação regional." },
+      { "text": "The project ignores cultural diversity", "correct": false, "comment": "" },
+      { "text": "There are no challenges involved", "correct": false, "comment": "" },
+      { "text": "AI is declining", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Reading",
+    "images": [],
+    "question": "South Korea introduced a comprehensive artificial intelligence law in 2026, aiming to balance technological innovation with public safety and ethical concerns. The legislation requires companies to label AI-generated content and conduct risk assessments for high-impact systems. Supporters argue that such measures increase transparency and build public trust in emerging technologies. However, critics claim that the regulation may impose excessive burdens on startups and smaller enterprises. Concerns have also been raised about whether the law adequately protects individuals from surveillance and data misuse. This debate reflects a broader global challenge: how to regulate rapidly evolving technologies without stifling innovation. Policymakers must navigate competing interests from industry, society, and government. As other countries observe South Korea’s approach, similar frameworks may be adopted elsewhere. The outcome of this policy could influence global AI regulation trends.\n\nSource: The Guardian – https://www.theguardian.com. Accessed in April, 2026.",
+    "options": [
+      { "text": "The law bans AI completely", "correct": false, "comment": "" },
+      { "text": "The regulation focuses on transparency and risk control", "correct": true, "comment": "Destaque: controle de risco e transparência são o foco." },
+      { "text": "Startups fully support the law", "correct": false, "comment": "" },
+      { "text": "AI is no longer used", "correct": false, "comment": "" },
+      { "text": "The law has no impact", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Reading",
+    "images": [],
+    "question": "The United Nations has approved the creation of a global scientific panel to study the impacts of artificial intelligence on society. This initiative reflects growing international concern about the rapid development of AI technologies and their potential consequences. The panel will include experts from various disciplines, such as computer science, ethics, and law, to provide comprehensive insights. Its objective is to support policymakers with evidence-based recommendations. While many countries welcome this initiative, others remain cautious about global oversight mechanisms. The effectiveness of the panel will depend on its ability to balance scientific analysis with political realities. Experts believe it could play a role similar to climate science panels. This effort highlights the need for coordinated responses to global technological challenges. As AI continues to evolve, such initiatives may become increasingly important.\n\nSource: United Nations / Associated Press – https://apnews.com. Accessed in April, 2026.",
+    "options": [
+      { "text": "The UN is banning AI", "correct": false, "comment": "" },
+      { "text": "The panel analyzes AI impacts", "correct": true, "comment": "Ideia-chave: estudar impactos da IA." },
+      { "text": "Only one country participates", "correct": false, "comment": "" },
+      { "text": "AI has no risks", "correct": false, "comment": "" },
+      { "text": "Technology is declining", "correct": false, "comment": "" }
+    ]
+  },
+    {
+    "id": 6,
+    "title": "Reading",
+    "images": [],
+    "question": "In 2026, fintech startups are playing a crucial role in transforming cross-border payments by introducing real-time transaction systems. These innovations significantly reduce costs and processing times compared to traditional banking methods. Small and medium-sized enterprises benefit the most, as they gain faster access to international markets. However, the rapid growth of fintech also raises concerns about regulatory compliance and financial security. Governments are now working to establish clearer frameworks to address these risks. Additionally, competition among fintech companies is intensifying, driving continuous innovation. Experts believe that collaboration between regulators and startups is essential. The future of financial systems will likely depend on how effectively these challenges are managed. As digital payments expand globally, fintech remains at the forefront of economic transformation.\n\nSource: World Bank – https://www.worldbank.org. Accessed in April, 2026.",
+    "options": [
+      { "text": "Fintech slows down payments", "correct": false, "comment": "" },
+      { "text": "SMEs benefit from faster transactions", "correct": true, "comment": "Trecho-chave: 'benefit the most' indica a ideia principal." },
+      { "text": "Regulation is not necessary", "correct": false, "comment": "" },
+      { "text": "Costs are increasing", "correct": false, "comment": "" },
+      { "text": "Fintech is declining", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Reading",
+    "images": [],
+    "question": "Artificial intelligence is increasingly being integrated into educational systems to personalize learning experiences for students. By analyzing large amounts of data, AI systems can adapt content, pace, and assessment methods to individual needs. This has the potential to improve learning outcomes and increase engagement. However, concerns about data privacy and ethical use of student information remain significant. Educators must also be trained to effectively use these technologies. Policymakers are working to establish guidelines that balance innovation with protection. Additionally, there is ongoing debate about the role of human teachers in AI-enhanced environments. Experts emphasize that technology should complement, not replace, human interaction. As adoption increases, the education sector is undergoing a profound transformation.\n\nSource: UNESCO – https://www.unesco.org. Accessed in April, 2026.",
+    "options": [
+      { "text": "AI replaces teachers completely", "correct": false, "comment": "" },
+      { "text": "AI personalizes education", "correct": true, "comment": "Expressão-chave: 'personalize learning experiences'." },
+      { "text": "Privacy is not a concern", "correct": false, "comment": "" },
+      { "text": "Teachers are no longer needed", "correct": false, "comment": "" },
+      { "text": "Technology is rejected", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Reading",
+    "images": [],
+    "question": "In 2026, venture capital investment trends show a growing preference for startups focused on sustainability and environmental impact. Investors are increasingly evaluating companies based not only on financial returns but also on their contribution to climate solutions. This shift reflects broader societal concerns about environmental degradation and climate change. Startups that align with sustainability goals are attracting significant funding. However, measuring environmental impact remains a complex challenge. Some investors are developing new metrics to address this issue. Others emphasize the importance of transparency in reporting. As a result, sustainability is becoming a central factor in investment decisions. This trend is expected to shape the future of entrepreneurship globally.\n\nSource: McKinsey & Company – https://www.mckinsey.com. Accessed in April, 2026.",
+    "options": [
+      { "text": "Investors ignore sustainability", "correct": false, "comment": "" },
+      { "text": "Sustainability is influencing investment decisions", "correct": true, "comment": "Ideia central: sustentabilidade como critério de decisão." },
+      { "text": "Funding is decreasing", "correct": false, "comment": "" },
+      { "text": "Climate change is irrelevant", "correct": false, "comment": "" },
+      { "text": "Startups avoid innovation", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Reading",
+    "images": [
+      "img/q9_1.png",
+      "img/q9_2.png",
+      "img/q9_3.png",
+      "img/q9_4.png",
+      "img/q9_5.png",
+      "img/q9_6.png"
+    ],
+    "question": "The main idea of the cartoon is that",
+    "options": [
+      { "text": "AI improves all working conditions", "correct": false, "comment": "" },
+      { "text": "automation may threaten human employment", "correct": true, "comment": "Interpretação: substituição de humanos por máquinas." },
+      { "text": "workers control technology", "correct": false, "comment": "" },
+      { "text": "robots depend on humans", "correct": false, "comment": "" },
+      { "text": "jobs are increasing globally", "correct": false, "comment": "" }
+    ]
+  },
+    {
+    "id": 10,
+    "title": "Reading",
+    "images": [
+      "img/q10_1.png",
+      "img/q10_2.png"
+    ],
+    "question": "The cartoon suggests that",
+    "options": [
+      { "text": "entrepreneurship is simple and predictable", "correct": false, "comment": "" },
+      { "text": "startups guarantee success", "correct": false, "comment": "" },
+      { "text": "founders often experience stress and pressure", "correct": true, "comment": "Cartoon mostra pressão e desafios do empreendedor." },
+      { "text": "investors solve all problems", "correct": false, "comment": "" },
+      { "text": "business requires little effort", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Reading",
+    "images": [
+      "img/q11_1.png",
+      "img/q11_2.png"
+    ],
+    "question": "The cartoon implies that",
+    "options": [
+      { "text": "digital systems are completely secure", "correct": false, "comment": "" },
+      { "text": "cybersecurity measures can still be bypassed", "correct": true, "comment": "Ideia: sistemas de segurança ainda podem ser burlados." },
+      { "text": "hackers no longer exist", "correct": false, "comment": "" },
+      { "text": "passwords are unnecessary", "correct": false, "comment": "" },
+      { "text": "security systems are completely unnecessary", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Reading",
+    "images": [
+      "img/q12_1.png",
+      "img/q12_2.png",
+      "img/q12_3.png"
+    ],
+    "question": "The cartoon mainly shows that",
+    "options": [
+      { "text": "users have full control over content", "correct": false, "comment": "" },
+      { "text": "algorithms influence what users see online", "correct": true, "comment": "Ideia central: algoritmos controlam o conteúdo exibido." },
+      { "text": "social media has no impact", "correct": false, "comment": "" },
+      { "text": "platforms are declining", "correct": false, "comment": "" },
+      { "text": "users avoid technology", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Reading",
+    "images": [
+      "img/q13_1.png",
+      "img/q13_2.png"
+    ],
+    "question": "The cartoon criticizes",
+    "options": [
+      { "text": "environmental protection efforts", "correct": false, "comment": "" },
+      { "text": "companies making misleading sustainability claims", "correct": true, "comment": "Crítica ao greenwashing (propaganda enganosa ambiental)." },
+      { "text": "renewable energy", "correct": false, "comment": "" },
+      { "text": "consumers’ behavior only", "correct": false, "comment": "" },
+      { "text": "government regulations exclusively", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Reading",
+    "images": [],
+    "question": "Influence of English in the Digital World\n\nEnglish has become the dominant language in the digital world, especially in areas such as programming, software development, and online communication. Many of the most widely used programming languages, including Python and JavaScript, are based on English vocabulary and syntax. This has created a global standard that facilitates collaboration among developers from different countries. However, it also presents challenges for non-native speakers, who must learn technical English to fully participate in the digital economy. In addition, many online platforms, tutorials, and documentation are primarily available in English. As a result, digital literacy is increasingly linked to English proficiency. Some experts argue that this linguistic dominance reinforces global inequalities. Others believe it promotes efficiency and global integration. Regardless of perspective, the influence of English in technology continues to expand.\n\nSource: British Council – https://www.britishcouncil.org. Accessed in April, 2026.\n\nThe main idea of the text is that",
+    "options": [
+      { "text": "programming languages are disappearing", "correct": false, "comment": "" },
+      { "text": "English plays a central role in digital communication", "correct": true, "comment": "Ideia central: inglês é dominante no mundo digital." },
+      { "text": "technology does not require language skills", "correct": false, "comment": "" },
+      { "text": "all languages are equally used online", "correct": false, "comment": "" },
+      { "text": "coding is unrelated to English", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Reading",
+    "images": [],
+    "question": "Awareness of Reading in English\n\nReading in English has become an essential skill for individuals working in technology-related fields. Many of the latest innovations, research articles, and technical manuals are published in English before being translated into other languages. As a result, professionals who can read in English have faster access to new information and trends. This advantage is particularly relevant in areas such as cybersecurity, artificial intelligence, and software development. However, reading technical texts requires more than basic language knowledge; it demands familiarity with specialized vocabulary and structures. Strategies such as skimming, scanning, and contextual guessing are often necessary to improve comprehension. Educational institutions are increasingly emphasizing the importance of reading skills in English. This reflects the growing connection between language and professional development in the digital era.\n\nSource: UNESCO – https://www.unesco.org. Accessed in April, 2026.\n\nThe text suggests that",
+    "options": [
+      { "text": "reading in English is optional", "correct": false, "comment": "" },
+      { "text": "translation is always immediate", "correct": false, "comment": "" },
+      { "text": "reading English provides faster access to information", "correct": true, "comment": "Trecho-chave: acesso mais rápido a informações." },
+      { "text": "English is not used in research", "correct": false, "comment": "" },
+      { "text": "technology texts are simple", "correct": false, "comment": "" }
+    ]
+  },
+   {
+    "id": 16,
+    "title": "Reading",
+    "images": [],
+    "question": "Key Concepts in IT Vocabulary\n\nUnderstanding key English terms in information technology is essential for effective communication in the field. Words such as “software,” “hardware,” “network,” and “database” are widely used across different languages without translation. These terms represent fundamental concepts that are necessary for understanding how digital systems operate. In addition, many technical instructions and interfaces rely on English terminology. For learners, this can initially be challenging, especially when words have multiple meanings depending on context. However, familiarity with these concepts significantly improves comprehension and performance in technical environments. Educational programs often emphasize the importance of mastering core vocabulary. As technology evolves, new terms continue to emerge, reinforcing the need for continuous learning.\n\nSource: IBM – https://www.ibm.com. Accessed in April, 2026.\n\nThe text mainly focuses on",
+    "options": [
+      { "text": "the difficulty of technology", "correct": false, "comment": "" },
+      { "text": "the importance of English IT vocabulary", "correct": true, "comment": "Ideia central: domínio do vocabulário técnico em inglês." },
+      { "text": "translation of all terms", "correct": false, "comment": "" },
+      { "text": "the decline of English", "correct": false, "comment": "" },
+      { "text": "software errors", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Reading",
+    "images": [],
+    "question": "Text Genres in Computing\n\nDifferent types of texts are commonly used in the field of computing, each serving a specific purpose. Technical manuals provide detailed instructions on how to use software or hardware systems. Research articles present new findings and innovations in areas such as artificial intelligence and data science. Online forums and documentation offer practical solutions to common problems faced by users and developers. Understanding these genres is essential for effective communication and learning. Each type of text has its own structure, language, and level of formality. For example, manuals tend to use imperative language, while research articles are more formal and analytical. Recognizing these differences helps readers interpret information more accurately. As a result, genre awareness is an important skill in technical education.\n\nSource: MIT – https://ocw.mit.edu. Accessed in April, 2026.\n\nThe main purpose of the text is to",
+    "options": [
+      { "text": "compare languages", "correct": false, "comment": "" },
+      { "text": "describe different types of technical texts", "correct": true, "comment": "Foco em explicar gêneros textuais da computação." },
+      { "text": "criticize research articles", "correct": false, "comment": "" },
+      { "text": "simplify manuals", "correct": false, "comment": "" },
+      { "text": "ignore documentation", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Reading",
+    "images": [],
+    "question": "Reading Strategies in IT Texts\n\nReading technical texts in English requires specific strategies to manage complex information effectively. One common approach is skimming, which involves quickly identifying the main idea of a text. Another strategy is scanning, used to locate specific information such as definitions or data. Contextual inference is also essential, allowing readers to understand unfamiliar terms based on surrounding words. In addition, visual elements such as diagrams and tables can support comprehension. Many readers also rely on prior knowledge to interpret technical content. These strategies are particularly useful when dealing with dense or highly specialized texts. Educational programs often train students to apply these techniques systematically. As a result, reading becomes more efficient and less intimidating.\n\nSource: Cambridge University Press – https://www.cambridge.org. Accessed in April, 2026.\n\nThe text emphasizes",
+    "options": [
+      { "text": "memorization only", "correct": false, "comment": "" },
+      { "text": "the use of reading strategies", "correct": true, "comment": "Palavras-chave: skimming, scanning, inference." },
+      { "text": "avoiding technical texts", "correct": false, "comment": "" },
+      { "text": "translation as the only method", "correct": false, "comment": "" },
+      { "text": "ignoring context", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Reading",
+    "images": [],
+    "question": "Specialized Dictionaries in IT\n\nSpecialized dictionaries play a crucial role in helping learners understand technical vocabulary in English. Unlike general dictionaries, they provide precise definitions tailored to specific fields such as computing and engineering. These resources often include examples, diagrams, and usage notes to clarify meaning. In the context of information technology, dictionaries may explain terms like “algorithm,” “encryption,” and “interface.” Using these tools can improve both reading comprehension and professional communication. However, learners must also develop the ability to infer meaning from context, as not all terms can be looked up immediately. Digital dictionaries and online glossaries have made access to specialized vocabulary easier. As technology evolves, these resources continue to expand and adapt.\n\nSource: Oxford University Press – https://www.oup.com. Accessed in April, 2026.\n\nThe text suggests that specialized dictionaries",
+    "options": [
+      { "text": "are unnecessary", "correct": false, "comment": "" },
+      { "text": "provide general meanings only", "correct": false, "comment": "" },
+      { "text": "help understand technical vocabulary", "correct": true, "comment": "Ideia central: auxiliam na compreensão técnica." },
+      { "text": "replace reading skills", "correct": false, "comment": "" },
+      { "text": "are outdated", "correct": false, "comment": "" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Reading",
+    "images": [
+      "img/q20_1.png",
+      "img/q20_2.png"
+    ],
+    "question": "The cartoon implies that",
+    "options": [
+      { "text": "technical English is universally easy", "correct": false, "comment": "" },
+      { "text": "digital interfaces are always translated", "correct": false, "comment": "" },
+      { "text": "understanding English vocabulary is important in technology use", "correct": true, "comment": "Mensagem: domínio do inglês é essencial na tecnologia." },
+      { "text": "users avoid technology completely", "correct": false, "comment": "" },
+      { "text": "software does not use English", "correct": false, "comment": "" }
+    ]
+  }
+]
+}
